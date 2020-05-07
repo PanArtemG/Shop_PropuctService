@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/SimpleJWTMiddleware/Sources/SimpleJWTMiddleware/Payload.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/Payload.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/Payload.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/Payload~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/Payload.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/SimpleJWTMiddleware/Sources/SimpleJWTMiddleware/SimpleJWTMiddleware.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/SimpleJWTMiddleware.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/SimpleJWTMiddleware.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/SimpleJWTMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/SimpleJWTMiddleware.swiftdeps"
+  }
+}

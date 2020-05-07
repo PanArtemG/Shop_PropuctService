@@ -1,0 +1,467 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MySQLTime"
+provides-nominal:
+- "8MySQLNIO0A7SQLTimeV"
+provides-member:
+- ["8MySQLNIO0A7SQLTimeV", ""]
+- ["3NIO10ByteBufferV", ""]
+- ["3NIO10ByteBufferV", "writeMySQLTime"]
+- ["3NIO10ByteBufferV", "readMySQLTime"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "<"
+- "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "ByteBuffer"
+- "CustomStringConvertible"
+- "Date"
+- "Double"
+- "Equatable"
+- "FloatLiteralType"
+- !private "Int"
+- "IntegerLiteralType"
+- "MySQLData"
+- "MySQLDataConvertible"
+- "MySQLTime"
+- "String"
+- "TimeInterval"
+- "TimeZone"
+- "UInt16"
+- "UInt32"
+- "UInt8"
+- !private "_gmt"
+- !private "gmtime"
+- !private "numericCast"
+- !private "timegm"
+- !private "tm"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "microseconds"]
+- !private ["s18AdditiveArithmeticP", "truncatingRemainder"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SB", "init"]
+- !private ["SB", "microseconds"]
+- !private ["SB", "truncatingRemainder"]
+- !private ["Sz", "init"]
+- ["3NIO10ByteBufferV", "MySQLTime"]
+- !private ["3NIO10ByteBufferV", "readInteger"]
+- ["3NIO10ByteBufferV", "readMySQLTime"]
+- !private ["3NIO10ByteBufferV", "readableBytes"]
+- !private ["3NIO10ByteBufferV", "writeInteger"]
+- ["3NIO10ByteBufferV", "writeMySQLTime"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "microseconds"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "truncatingRemainder"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "microseconds"]
+- !private ["SL", "pointee"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["SL", "truncatingRemainder"]
+- !private ["s28CustomDebugStringConvertibleP", "_gmt"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "microseconds"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "truncatingRemainder"]
+- !private ["s17CustomReflectableP", "_gmt"]
+- !private ["s17CustomReflectableP", "description"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "microseconds"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "truncatingRemainder"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "MySQLTime"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- !private ["s23CustomStringConvertibleP", "UInt32"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_gmt"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "day"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "gmtime"]
+- !private ["s23CustomStringConvertibleP", "hour"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "microsecond"]
+- !private ["s23CustomStringConvertibleP", "microseconds"]
+- !private ["s23CustomStringConvertibleP", "minute"]
+- !private ["s23CustomStringConvertibleP", "month"]
+- ["s23CustomStringConvertibleP", "mysqlData"]
+- !private ["s23CustomStringConvertibleP", "numericCast"]
+- !private ["s23CustomStringConvertibleP", "readInteger"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "second"]
+- !private ["s23CustomStringConvertibleP", "time"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "timegm"]
+- !private ["s23CustomStringConvertibleP", "tm"]
+- !private ["s23CustomStringConvertibleP", "truncatingRemainder"]
+- !private ["s23CustomStringConvertibleP", "writeInteger"]
+- !private ["s23CustomStringConvertibleP", "year"]
+- !private ["10Foundation4DateV", "deinit"]
+- !private ["10Foundation4DateV", "description"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["Se", "_gmt"]
+- !private ["Se", "description"]
+- ["Se", "init"]
+- !private ["Se", "microseconds"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["Se", "truncatingRemainder"]
+- ["Sd", "Double"]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Sd", "microseconds"]
+- !private ["Sd", "truncatingRemainder"]
+- !private ["SE", "_gmt"]
+- !private ["SE", "description"]
+- ["SE", "init"]
+- !private ["SE", "microseconds"]
+- !private ["SE", "timeIntervalSince1970"]
+- !private ["SE", "truncatingRemainder"]
+- !private ["3NIO10EndiannessO", "little"]
+- ["SQ", "=="]
+- !private ["SQ", "Date"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "MySQLTime"]
+- !private ["SQ", "TimeInterval"]
+- !private ["SQ", "UInt32"]
+- ["SQ", ""]
+- !private ["SQ", "_gmt"]
+- !private ["SQ", "date"]
+- !private ["SQ", "day"]
+- ["SQ", "description"]
+- !private ["SQ", "gmtime"]
+- !private ["SQ", "hour"]
+- ["SQ", "init"]
+- !private ["SQ", "little"]
+- !private ["SQ", "microsecond"]
+- !private ["SQ", "microseconds"]
+- !private ["SQ", "minute"]
+- !private ["SQ", "month"]
+- ["SQ", "mysqlData"]
+- !private ["SQ", "numericCast"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "readInteger"]
+- !private ["SQ", "readableBytes"]
+- !private ["SQ", "second"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "timegm"]
+- !private ["SQ", "tm"]
+- !private ["SQ", "truncatingRemainder"]
+- !private ["SQ", "writeInteger"]
+- !private ["SQ", "year"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "time"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "time"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "microseconds"]
+- !private ["s25ExpressibleByFloatLiteralP", "truncatingRemainder"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "microseconds"]
+- !private ["s27ExpressibleByIntegerLiteralP", "time"]
+- !private ["s27ExpressibleByIntegerLiteralP", "truncatingRemainder"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "time"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "time"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SF", "microseconds"]
+- !private ["SF", "truncatingRemainder"]
+- !private ["SH", "MySQLTime"]
+- !private ["SH", "_gmt"]
+- !private ["SH", "description"]
+- ["SH", "init"]
+- !private ["SH", "little"]
+- !private ["SH", "microseconds"]
+- !private ["SH", "pointee"]
+- !private ["SH", "readInteger"]
+- !private ["SH", "readableBytes"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["SH", "truncatingRemainder"]
+- !private ["SH", "writeInteger"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "microseconds"]
+- !private ["s25LosslessStringConvertibleP", "truncatingRemainder"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["8MySQLNIO0A7SQLDataV", "deinit"]
+- !private ["8MySQLNIO0A7SQLDataV", "init"]
+- !private ["8MySQLNIO0A7SQLDataV", "time"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "=="]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Date"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Int"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "TimeInterval"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "UInt32"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", ""]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "date"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "day"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "description"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "gmtime"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "hour"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "init"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "microsecond"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "microseconds"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "minute"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "month"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "mysqlData"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "numericCast"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "second"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "time"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "timeIntervalSince1970"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "timegm"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "tm"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "truncatingRemainder"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "year"]
+- ["8MySQLNIO0A7SQLTimeV", "=="]
+- ["8MySQLNIO0A7SQLTimeV", "Date"]
+- !private ["8MySQLNIO0A7SQLTimeV", "Int"]
+- ["8MySQLNIO0A7SQLTimeV", "MySQLData"]
+- ["8MySQLNIO0A7SQLTimeV", "String"]
+- !private ["8MySQLNIO0A7SQLTimeV", "TimeInterval"]
+- ["8MySQLNIO0A7SQLTimeV", "UInt16"]
+- ["8MySQLNIO0A7SQLTimeV", "UInt32"]
+- ["8MySQLNIO0A7SQLTimeV", "UInt8"]
+- ["8MySQLNIO0A7SQLTimeV", "__derived_struct_equals"]
+- ["8MySQLNIO0A7SQLTimeV", "date"]
+- ["8MySQLNIO0A7SQLTimeV", "day"]
+- ["8MySQLNIO0A7SQLTimeV", "deinit"]
+- ["8MySQLNIO0A7SQLTimeV", "description"]
+- !private ["8MySQLNIO0A7SQLTimeV", "gmtime"]
+- ["8MySQLNIO0A7SQLTimeV", "hour"]
+- ["8MySQLNIO0A7SQLTimeV", "init"]
+- ["8MySQLNIO0A7SQLTimeV", "microsecond"]
+- ["8MySQLNIO0A7SQLTimeV", "minute"]
+- ["8MySQLNIO0A7SQLTimeV", "month"]
+- ["8MySQLNIO0A7SQLTimeV", "mysqlData"]
+- !private ["8MySQLNIO0A7SQLTimeV", "numericCast"]
+- ["8MySQLNIO0A7SQLTimeV", "second"]
+- !private ["8MySQLNIO0A7SQLTimeV", "timegm"]
+- !private ["8MySQLNIO0A7SQLTimeV", "tm"]
+- ["8MySQLNIO0A7SQLTimeV", "year"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["Sj", "init"]
+- !private ["Sj", "microseconds"]
+- !private ["Sj", "truncatingRemainder"]
+- !private ["Sq", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "_gmt"]
+- !private ["10Foundation20ReferenceConvertibleP", "description"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "microseconds"]
+- !private ["s10SIMDScalarP", "truncatingRemainder"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "microseconds"]
+- !private ["s13SignedNumericP", "truncatingRemainder"]
+- !private ["Sx", "init"]
+- !private ["Sx", "microseconds"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "truncatingRemainder"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "microseconds"]
+- !private ["s20TextOutputStreamableP", "truncatingRemainder"]
+- ["10Foundation8TimeZoneV", "TimeZone"]
+- !private ["10Foundation8TimeZoneV", "_gmt"]
+- !private ["10Foundation8TimeZoneV", "gmt"]
+- ["10Foundation8TimeZoneV", "init"]
+- !private ["s6UInt32V", "deinit"]
+- !private ["s6UInt32V", "init"]
+- !private ["Sp", "pointee"]
+- !private ["SU", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "microseconds"]
+- !private ["s15_CVarArgAlignedP", "truncatingRemainder"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "microseconds"]
+- !private ["s22_CVarArgPassedAsDoubleP", "truncatingRemainder"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "microseconds"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "truncatingRemainder"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "microseconds"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "truncatingRemainder"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "microseconds"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "truncatingRemainder"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "microseconds"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "truncatingRemainder"]
+- !private ["s21_ObjectiveCBridgeableP", "_gmt"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "microseconds"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- !private ["s21_ObjectiveCBridgeableP", "truncatingRemainder"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["So2tmV", "init"]
+- !private ["So2tmV", "tm_hour"]
+- !private ["So2tmV", "tm_mday"]
+- !private ["So2tmV", "tm_min"]
+- !private ["So2tmV", "tm_mon"]
+- !private ["So2tmV", "tm_sec"]
+- !private ["So2tmV", "tm_year"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SB"
+- !private "Sz"
+- "3NIO10ByteBufferV"
+- !private "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "Se"
+- "Sd"
+- "SE"
+- !private "3NIO10EndiannessO"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "8MySQLNIO0A7SQLDataV"
+- "8MySQLNIO0A18SQLDataConvertibleP"
+- "8MySQLNIO0A7SQLTimeV"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "Sj"
+- !private "Sq"
+- "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- "10Foundation8TimeZoneV"
+- !private "s6UInt32V"
+- !private "Sp"
+- !private "SU"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "So2tmV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "18ab4b99e872a6d31338974fcfea2022"

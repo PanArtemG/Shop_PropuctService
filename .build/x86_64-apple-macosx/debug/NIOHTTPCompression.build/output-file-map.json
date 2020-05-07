@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPDecompression.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPRequestDecompressor.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPResponseCompressor.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPResponseDecompressor.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor.swiftdeps"
+  }
+}

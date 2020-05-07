@@ -1,0 +1,4 @@
+module CNIOBoringSSLShims {
+    umbrella header "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/CNIOBoringSSLShims/include/CNIOBoringSSLShims.h"
+    export *
+}

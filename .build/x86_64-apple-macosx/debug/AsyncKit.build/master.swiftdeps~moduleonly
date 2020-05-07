@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "c3010a1fa1ad22433236a5a0b30e5f7e"
+build_time: [1588863909, 950229000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolError.swift": [1588863835, 901395375]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolItem.swift": [1588863835, 901594857]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolSource.swift": [1588863835, 901723950]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/EventLoopConnectionPool.swift": [1588863835, 901848898]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/EventLoopGroupConnectionPool.swift": [1588863835, 902003617]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoop+Flatten.swift": [1588863835, 902179196]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoop+Future.swift": [1588863835, 902304815]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Collection+Flatten.swift": [1588863835, 902580419]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/EventLoopFutureQueue+Sequence.swift": [1588863835, 902733421]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/EventLoopFutureQueue.swift": [1588863835, 902879358]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Collection.swift": [1588863835, 903015121]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Optional.swift": [1588863835, 903145807]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Throwing.swift": [1588863835, 903269768]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Transform.swift": [1588863835, 903492737]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/FutureExtensions.swift": [1588863835, 903623891]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/FutureOperators.swift": [1588863835, 903761409]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-kit/Sources/AsyncKit/Exports.swift": [1588863835, 903895715]

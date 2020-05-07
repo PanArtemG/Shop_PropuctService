@@ -1,0 +1,4 @@
+module NIOHPACK {
+    header "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHPACK.build/NIOHPACK-Swift.h"
+    requires objc
+}

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "466927a33b9cd7d2b62a2728a84d0313"
+build_time: [1588863909, 942190000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": [1588863838, 832875876]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/NIOTLS/SNIHandler.swift": [1588863838, 833157194]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/NIOTLS/TLSEvents.swift": [1588863838, 833304882]

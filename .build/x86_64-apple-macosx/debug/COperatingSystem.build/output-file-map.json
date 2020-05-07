@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/vapor/Sources/COperatingSystem/Exports.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/Exports.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/Exports.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/Exports.swiftdeps"
+  }
+}

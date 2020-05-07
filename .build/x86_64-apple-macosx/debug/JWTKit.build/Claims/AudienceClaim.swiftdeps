@@ -1,0 +1,414 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AudienceClaim"
+provides-nominal:
+- "6JWTKit13AudienceClaimV"
+provides-member:
+- ["6JWTKit13AudienceClaimV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "=="
+- "AssignmentPrecedence"
+- "AudienceClaim"
+- !private "BooleanLiteralType"
+- "Equatable"
+- "ExpressibleByStringLiteral"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "JWTError"
+- "JWTMultiValueClaim"
+- "String"
+- !private "StringLiteralType"
+- !private "precondition"
+depends-member:
+- !private ["Sa", "contains"]
+- !private ["Sa", "isEmpty"]
+- ["6JWTKit13AudienceClaimV", "=="]
+- ["6JWTKit13AudienceClaimV", "ExtendedGraphemeClusterLiteralType"]
+- !private ["6JWTKit13AudienceClaimV", "JWTError"]
+- ["6JWTKit13AudienceClaimV", "String"]
+- ["6JWTKit13AudienceClaimV", "StringLiteralType"]
+- ["6JWTKit13AudienceClaimV", "UnicodeScalarLiteralType"]
+- ["6JWTKit13AudienceClaimV", "Value"]
+- ["6JWTKit13AudienceClaimV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["6JWTKit13AudienceClaimV", "_Default_StringLiteralType"]
+- ["6JWTKit13AudienceClaimV", "_Default_UnicodeScalarLiteralType"]
+- ["6JWTKit13AudienceClaimV", "_Default_Value"]
+- ["6JWTKit13AudienceClaimV", "__derived_struct_equals"]
+- ["6JWTKit13AudienceClaimV", "deinit"]
+- ["6JWTKit13AudienceClaimV", "encode"]
+- ["6JWTKit13AudienceClaimV", "init"]
+- !private ["6JWTKit13AudienceClaimV", "precondition"]
+- ["6JWTKit13AudienceClaimV", "value"]
+- ["6JWTKit13AudienceClaimV", "verifyIntendedAudience"]
+- !private ["SK", "contains"]
+- !private ["SK", "isEmpty"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "claimVerificationFailure"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- ["Se", "=="]
+- ["Se", "ExtendedGraphemeClusterLiteralType"]
+- !private ["Se", "JWTError"]
+- ["Se", "StringLiteralType"]
+- ["Se", "UnicodeScalarLiteralType"]
+- ["Se", "Value"]
+- ["Se", ""]
+- ["Se", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["Se", "_Default_StringLiteralType"]
+- ["Se", "_Default_UnicodeScalarLiteralType"]
+- ["Se", "_Default_Value"]
+- !private ["Se", "contains"]
+- ["Se", "encode"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "precondition"]
+- ["Se", "value"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "=="]
+- ["SE", "ExtendedGraphemeClusterLiteralType"]
+- !private ["SE", "JWTError"]
+- ["SE", "StringLiteralType"]
+- ["SE", "UnicodeScalarLiteralType"]
+- ["SE", "Value"]
+- ["SE", ""]
+- ["SE", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["SE", "_Default_StringLiteralType"]
+- ["SE", "_Default_UnicodeScalarLiteralType"]
+- ["SE", "_Default_Value"]
+- !private ["SE", "contains"]
+- ["SE", "encode"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "precondition"]
+- ["SE", "value"]
+- ["SQ", "=="]
+- ["SQ", "ExtendedGraphemeClusterLiteralType"]
+- !private ["SQ", "JWTError"]
+- ["SQ", "StringLiteralType"]
+- ["SQ", "UnicodeScalarLiteralType"]
+- ["SQ", "Value"]
+- ["SQ", ""]
+- ["SQ", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["SQ", "_Default_StringLiteralType"]
+- ["SQ", "_Default_UnicodeScalarLiteralType"]
+- ["SQ", "_Default_Value"]
+- !private ["SQ", "contains"]
+- ["SQ", "encode"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "precondition"]
+- ["SQ", "value"]
+- !private ["s5ErrorP", "claimVerificationFailure"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "=="]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "JWTError"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Value"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_Value"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "encode"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "precondition"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "value"]
+- ["s26ExpressibleByStringLiteralP", "=="]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "JWTError"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Value"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_Value"]
+- ["s26ExpressibleByStringLiteralP", "encode"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "precondition"]
+- ["s26ExpressibleByStringLiteralP", "value"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "=="]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "JWTError"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Value"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_Value"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "encode"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "precondition"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "value"]
+- !private ["SH", "contains"]
+- !private ["SH", "isEmpty"]
+- ["6JWTKit8JWTClaimP", "=="]
+- ["6JWTKit8JWTClaimP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["6JWTKit8JWTClaimP", "JWTError"]
+- ["6JWTKit8JWTClaimP", "StringLiteralType"]
+- ["6JWTKit8JWTClaimP", "UnicodeScalarLiteralType"]
+- ["6JWTKit8JWTClaimP", "Value"]
+- ["6JWTKit8JWTClaimP", ""]
+- ["6JWTKit8JWTClaimP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["6JWTKit8JWTClaimP", "_Default_StringLiteralType"]
+- ["6JWTKit8JWTClaimP", "_Default_UnicodeScalarLiteralType"]
+- ["6JWTKit8JWTClaimP", "_Default_Value"]
+- ["6JWTKit8JWTClaimP", "encode"]
+- ["6JWTKit8JWTClaimP", "init"]
+- !private ["6JWTKit8JWTClaimP", "precondition"]
+- ["6JWTKit8JWTClaimP", "value"]
+- !private ["6JWTKit8JWTErrorO", "claimVerificationFailure"]
+- !private ["6JWTKit8JWTErrorO", "deinit"]
+- ["6JWTKit18JWTMultiValueClaimP", "=="]
+- ["6JWTKit18JWTMultiValueClaimP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["6JWTKit18JWTMultiValueClaimP", "JWTError"]
+- ["6JWTKit18JWTMultiValueClaimP", "StringLiteralType"]
+- ["6JWTKit18JWTMultiValueClaimP", "UnicodeScalarLiteralType"]
+- ["6JWTKit18JWTMultiValueClaimP", "Value"]
+- ["6JWTKit18JWTMultiValueClaimP", ""]
+- ["6JWTKit18JWTMultiValueClaimP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["6JWTKit18JWTMultiValueClaimP", "_Default_StringLiteralType"]
+- ["6JWTKit18JWTMultiValueClaimP", "_Default_UnicodeScalarLiteralType"]
+- ["6JWTKit18JWTMultiValueClaimP", "_Default_Value"]
+- ["6JWTKit18JWTMultiValueClaimP", "encode"]
+- ["6JWTKit18JWTMultiValueClaimP", "init"]
+- !private ["6JWTKit18JWTMultiValueClaimP", "precondition"]
+- ["6JWTKit18JWTMultiValueClaimP", "value"]
+- !private ["10Foundation14LocalizedErrorP", "claimVerificationFailure"]
+- !private ["SM", "contains"]
+- !private ["SM", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "isEmpty"]
+- !private ["ST", "contains"]
+- !private ["ST", "isEmpty"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+depends-nominal:
+- !private "Sa"
+- "6JWTKit13AudienceClaimV"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- "6JWTKit8JWTClaimP"
+- !private "6JWTKit8JWTErrorO"
+- "6JWTKit18JWTMultiValueClaimP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_asn1.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_dtls1.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pkcs12.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_e_os2.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_x509v3.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_base64.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_rc4.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_md4.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_poly1305.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_md5.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pkcs7.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pkcs8.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_x509.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_curve25519.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_chacha.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_sha.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_dsa.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ecdsa.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_rsa.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ex_data.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_asn1_mac.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_obj_mac.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cmac.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_hmac.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ec.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_aead.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_thread.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_nid.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ripemd.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_rand.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_engine.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_base.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_hkdf.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_conf.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_opensslconf.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_buf.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_bytestring.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_arm_arch.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_dh.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ecdh.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_lhash.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_siphash.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_blowfish.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_obj.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_stack.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_safestack.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_type_check.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pool.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_is_boringssl.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_mem.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pem.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_boringssl_prefix_symbols_asm.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_span.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_bn.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_bio.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_crypto.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_evp.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ossl_typ.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_buffer.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cipher.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_err.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_aes.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_des.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_boringssl_prefix_symbols.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_hrss.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_objects.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_asn1t.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cast.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_digest.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cpu.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_opensslv.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ec_key.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_x509_vfy.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "110287d90597666a2b72f914841d923d"

@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "7bfaa588b2da7463fe5f24923ec27af6"
+build_time: [1588863929, 323210000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClient+HTTPCookie.swift": [1588863837, 630605919]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClient.swift": [1588863837, 668018672]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClientProxyHandler.swift": [1588863837, 668307812]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPHandler.swift": [1588863837, 668698979]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/RequestValidation.swift": [1588863837, 668930874]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/Utils.swift": [1588863837, 669165842]

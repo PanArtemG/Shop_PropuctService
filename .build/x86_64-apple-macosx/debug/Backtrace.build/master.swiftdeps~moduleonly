@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "5b53394c87cebd21c35d799776ba310a"
+build_time: [1588863902, 799214000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-backtrace/Sources/Backtrace/Backtrace.swift": [1588863839, 797318490]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-backtrace/Sources/Backtrace/Demangle.swift": [1588863839, 797474866]

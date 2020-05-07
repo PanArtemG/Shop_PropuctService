@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "acb1c198a0bd458d2507819a701e1e10"
+build_time: [1588863909, 946961000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugInboundEventsHandler.swift": [1588863836, 113200051]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugOutboundEventsHandler.swift": [1588863836, 113435663]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/FixedLengthFrameDecoder.swift": [1588863836, 113604836]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming+ContentLengthHeader.swift": [1588863836, 113777178]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming.swift": [1588863836, 114062885]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldBasedFrameDecoder.swift": [1588863836, 114344774]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldPrepender.swift": [1588863836, 114577782]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LineBasedFrameDecoder.swift": [1588863836, 114761802]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/NIOExtrasError.swift": [1588863836, 114925620]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/QuiescingHelper.swift": [1588863836, 115150655]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/RequestResponseHandler.swift": [1588863836, 115324251]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/NIOExtras/WritePCAPHandler.swift": [1588863836, 115746978]

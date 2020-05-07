@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/App/Configure.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Configure.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Configure.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Configure~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Configure.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/App/Controllers/TodoController.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Controllers/TodoController.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Controllers/TodoController.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Controllers/TodoController~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Controllers/TodoController.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/App/Migrations/CreateTodo.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Migrations/CreateTodo.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Migrations/CreateTodo.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Migrations/CreateTodo~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Migrations/CreateTodo.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/App/Models/Database/Todo.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Models/Database/Todo.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Models/Database/Todo.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Models/Database/Todo~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Models/Database/Todo.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/App/Routes.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Routes.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Routes.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Routes~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/Routes.swiftdeps"
+  }
+}

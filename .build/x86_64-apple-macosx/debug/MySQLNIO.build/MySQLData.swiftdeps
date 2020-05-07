@@ -1,0 +1,1071 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MySQLData"
+provides-nominal:
+- "8MySQLNIO0A7SQLDataV"
+- "8MySQLNIO0A7SQLDataV6FormatO"
+provides-member:
+- ["8MySQLNIO0A7SQLDataV", ""]
+- ["8MySQLNIO0A7SQLDataV6FormatO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ByteBuffer"
+- !private "ByteBufferAllocator"
+- "CustomStringConvertible"
+- !private "Data"
+- "Date"
+- "Decodable"
+- "Double"
+- "Encodable"
+- "Encoder"
+- "ExpressibleByBooleanLiteral"
+- "ExpressibleByIntegerLiteral"
+- "ExpressibleByStringLiteral"
+- "Float"
+- !private "FloatLiteralType"
+- "Int"
+- !private "Int16"
+- !private "Int32"
+- !private "Int64"
+- !private "Int8"
+- !private "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- !private "MemoryLayout"
+- "MySQLData"
+- "MySQLDataConvertible"
+- "MySQLProtocol"
+- "MySQLTime"
+- "String"
+- !private "StringLiteralType"
+- !private "Swift"
+- "TernaryPrecedence"
+- !private "UInt16"
+- !private "UInt32"
+- !private "UInt64"
+- !private "UInt8"
+- "UUID"
+- !private "UnicodeScalarType"
+- !private "assert"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "bitWidth"]
+- !private ["s18AdditiveArithmeticP", "description"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "subscript"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "bitWidth"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "description"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", "copyBytes"]
+- !private ["SK", "count"]
+- !private ["SK", "debugDescription"]
+- !private ["SK", "description"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["SK", "utf8"]
+- !private ["SB", "description"]
+- !private ["SB", "init"]
+- !private ["Sz", "bitWidth"]
+- !private ["Sz", "description"]
+- !private ["Sz", "init"]
+- !private ["Sb", "description"]
+- !private ["3NIO10ByteBufferV", "readBytes"]
+- !private ["3NIO10ByteBufferV", "readInteger"]
+- !private ["3NIO10ByteBufferV", "readMySQLTime"]
+- !private ["3NIO10ByteBufferV", "readString"]
+- !private ["3NIO10ByteBufferV", "readableBytes"]
+- !private ["3NIO10ByteBufferV", "readableBytesView"]
+- !private ["3NIO10ByteBufferV", "writeBytes"]
+- !private ["3NIO10ByteBufferV", "writeInteger"]
+- !private ["3NIO10ByteBufferV", "writeMySQLTime"]
+- !private ["3NIO10ByteBufferV", "writeString"]
+- !private ["3NIO19ByteBufferAllocatorV", "buffer"]
+- !private ["3NIO19ByteBufferAllocatorV", "init"]
+- !private ["s7CVarArgP", "bitWidth"]
+- !private ["s7CVarArgP", "debugDescription"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["Sl", "copyBytes"]
+- !private ["Sl", "count"]
+- !private ["Sl", "debugDescription"]
+- !private ["Sl", "description"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "utf8"]
+- !private ["SL", "bitWidth"]
+- !private ["SL", "debugDescription"]
+- !private ["SL", "description"]
+- !private ["SL", "init"]
+- !private ["SL", "utf8"]
+- !private ["10Foundation15ContiguousBytesP", "copyBytes"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "description"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "copyBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "uuid"]
+- !private ["s17CustomReflectableP", "bitWidth"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "debugDescription"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s17CustomReflectableP", "uuid"]
+- ["s23CustomStringConvertibleP", "BooleanLiteralType"]
+- !private ["s23CustomStringConvertibleP", "ByteBufferAllocator"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- ["s23CustomStringConvertibleP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "Int16"]
+- !private ["s23CustomStringConvertibleP", "Int32"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "Int8"]
+- ["s23CustomStringConvertibleP", "IntegerLiteralType"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "JSONEncoder"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- ["s23CustomStringConvertibleP", "StringLiteralType"]
+- !private ["s23CustomStringConvertibleP", "Swift"]
+- !private ["s23CustomStringConvertibleP", "UInt16"]
+- !private ["s23CustomStringConvertibleP", "UInt32"]
+- !private ["s23CustomStringConvertibleP", "UInt64"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "UUID"]
+- ["s23CustomStringConvertibleP", "UnicodeScalarLiteralType"]
+- !private ["s23CustomStringConvertibleP", "Wrapper"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_BooleanLiteralType"]
+- ["s23CustomStringConvertibleP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s23CustomStringConvertibleP", "_Default_IntegerLiteralType"]
+- ["s23CustomStringConvertibleP", "_Default_StringLiteralType"]
+- ["s23CustomStringConvertibleP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- ["s23CustomStringConvertibleP", "bit"]
+- !private ["s23CustomStringConvertibleP", "bitWidth"]
+- ["s23CustomStringConvertibleP", "blob"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- !private ["s23CustomStringConvertibleP", "buffer"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "date"]
+- ["s23CustomStringConvertibleP", "datetime"]
+- !private ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "double"]
+- ["s23CustomStringConvertibleP", "float"]
+- !private ["s23CustomStringConvertibleP", "format"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- ["s23CustomStringConvertibleP", "int24"]
+- !private ["s23CustomStringConvertibleP", "isUnsigned"]
+- ["s23CustomStringConvertibleP", "long"]
+- ["s23CustomStringConvertibleP", "longBlob"]
+- ["s23CustomStringConvertibleP", "longlong"]
+- ["s23CustomStringConvertibleP", "mediumBlob"]
+- ["s23CustomStringConvertibleP", "mysqlData"]
+- ["s23CustomStringConvertibleP", "newdecimal"]
+- !private ["s23CustomStringConvertibleP", "null"]
+- !private ["s23CustomStringConvertibleP", "readBytes"]
+- !private ["s23CustomStringConvertibleP", "readInteger"]
+- !private ["s23CustomStringConvertibleP", "readMySQLTime"]
+- !private ["s23CustomStringConvertibleP", "readString"]
+- !private ["s23CustomStringConvertibleP", "readableBytes"]
+- !private ["s23CustomStringConvertibleP", "readableBytesView"]
+- ["s23CustomStringConvertibleP", "short"]
+- ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "time"]
+- ["s23CustomStringConvertibleP", "timestamp"]
+- ["s23CustomStringConvertibleP", "tiny"]
+- ["s23CustomStringConvertibleP", "tinyBlob"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "uuid"]
+- ["s23CustomStringConvertibleP", "varString"]
+- ["s23CustomStringConvertibleP", "varchar"]
+- !private ["s23CustomStringConvertibleP", "writeBytes"]
+- !private ["s23CustomStringConvertibleP", "writeInteger"]
+- !private ["s23CustomStringConvertibleP", "writeMySQLTime"]
+- !private ["s23CustomStringConvertibleP", "writeString"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "description"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "description"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "bit"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "blob"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "date"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "datetime"]
+- !private ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "deinit"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "double"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "float"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "int24"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "long"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "longBlob"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "longlong"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "mediumBlob"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "newdecimal"]
+- !private ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "null"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "short"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "string"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "timestamp"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "tiny"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "tinyBlob"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "varString"]
+- ["8MySQLNIO0A11SQLProtocolV8DataTypeV", "varchar"]
+- !private ["10Foundation4DateV", "description"]
+- !private ["Se", "bitWidth"]
+- !private ["Se", "count"]
+- !private ["Se", "debugDescription"]
+- !private ["Se", "description"]
+- !private ["Se", "flatMap"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "utf8"]
+- !private ["Se", "uuid"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "description"]
+- !private ["Sd", "init"]
+- !private ["SE", ""]
+- !private ["SE", "bitWidth"]
+- !private ["SE", "count"]
+- !private ["SE", "debugDescription"]
+- !private ["SE", "description"]
+- !private ["SE", "encodable"]
+- ["SE", "encode"]
+- !private ["SE", "flatMap"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "utf8"]
+- !private ["SE", "uuid"]
+- !private ["3NIO10EndiannessO", "little"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "binary"]
+- ["SQ", "bit"]
+- !private ["SQ", "bitWidth"]
+- ["SQ", "blob"]
+- !private ["SQ", "count"]
+- ["SQ", "date"]
+- ["SQ", "datetime"]
+- !private ["SQ", "debugDescription"]
+- !private ["SQ", "description"]
+- ["SQ", "double"]
+- !private ["SQ", "flatMap"]
+- ["SQ", "float"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- ["SQ", "int24"]
+- !private ["SQ", "little"]
+- ["SQ", "long"]
+- ["SQ", "longBlob"]
+- ["SQ", "longlong"]
+- ["SQ", "mediumBlob"]
+- ["SQ", "newdecimal"]
+- !private ["SQ", "null"]
+- !private ["SQ", "readBytes"]
+- !private ["SQ", "readInteger"]
+- !private ["SQ", "readMySQLTime"]
+- !private ["SQ", "readString"]
+- !private ["SQ", "readableBytes"]
+- !private ["SQ", "readableBytesView"]
+- ["SQ", "short"]
+- ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- ["SQ", "text"]
+- ["SQ", "timestamp"]
+- ["SQ", "tiny"]
+- ["SQ", "tinyBlob"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "uuid"]
+- ["SQ", "varString"]
+- ["SQ", "varchar"]
+- !private ["SQ", "writeBytes"]
+- !private ["SQ", "writeInteger"]
+- !private ["SQ", "writeMySQLTime"]
+- !private ["SQ", "writeString"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s27ExpressibleByBooleanLiteralP", "BooleanLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "ByteBufferAllocator"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Data"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Double"]
+- ["s27ExpressibleByBooleanLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Float"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Int"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Int16"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Int32"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Int64"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Int8"]
+- ["s27ExpressibleByBooleanLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "JSONDecoder"]
+- !private ["s27ExpressibleByBooleanLiteralP", "JSONEncoder"]
+- !private ["s27ExpressibleByBooleanLiteralP", "MemoryLayout"]
+- ["s27ExpressibleByBooleanLiteralP", "StringLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Swift"]
+- !private ["s27ExpressibleByBooleanLiteralP", "UInt16"]
+- !private ["s27ExpressibleByBooleanLiteralP", "UInt32"]
+- !private ["s27ExpressibleByBooleanLiteralP", "UInt64"]
+- !private ["s27ExpressibleByBooleanLiteralP", "UInt8"]
+- !private ["s27ExpressibleByBooleanLiteralP", "UUID"]
+- ["s27ExpressibleByBooleanLiteralP", "UnicodeScalarLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "Wrapper"]
+- ["s27ExpressibleByBooleanLiteralP", ""]
+- ["s27ExpressibleByBooleanLiteralP", "_Default_BooleanLiteralType"]
+- ["s27ExpressibleByBooleanLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s27ExpressibleByBooleanLiteralP", "_Default_IntegerLiteralType"]
+- ["s27ExpressibleByBooleanLiteralP", "_Default_StringLiteralType"]
+- ["s27ExpressibleByBooleanLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "assert"]
+- !private ["s27ExpressibleByBooleanLiteralP", "bool"]
+- !private ["s27ExpressibleByBooleanLiteralP", "buffer"]
+- !private ["s27ExpressibleByBooleanLiteralP", "date"]
+- ["s27ExpressibleByBooleanLiteralP", "description"]
+- !private ["s27ExpressibleByBooleanLiteralP", "double"]
+- !private ["s27ExpressibleByBooleanLiteralP", "float"]
+- !private ["s27ExpressibleByBooleanLiteralP", "format"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int"]
+- !private ["s27ExpressibleByBooleanLiteralP", "isUnsigned"]
+- ["s27ExpressibleByBooleanLiteralP", "mysqlData"]
+- !private ["s27ExpressibleByBooleanLiteralP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "time"]
+- !private ["s27ExpressibleByBooleanLiteralP", "type"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "BooleanLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ByteBufferAllocator"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Double"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Float"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Int"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Int16"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Int32"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Int64"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Int8"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "IntegerLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "JSONDecoder"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "JSONEncoder"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "MemoryLayout"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Swift"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UInt16"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UInt32"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UInt64"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UInt8"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UUID"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Wrapper"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_BooleanLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_IntegerLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "assert"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "bool"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "buffer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "date"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "debugDescription"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "description"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "double"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "float"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "format"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "int"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isUnsigned"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "mysqlData"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "time"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "type"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "BooleanLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "ByteBufferAllocator"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Data"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- ["s27ExpressibleByIntegerLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Float"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Int16"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Int32"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Int64"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Int8"]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "JSONDecoder"]
+- !private ["s27ExpressibleByIntegerLiteralP", "JSONEncoder"]
+- !private ["s27ExpressibleByIntegerLiteralP", "MemoryLayout"]
+- ["s27ExpressibleByIntegerLiteralP", "StringLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Swift"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UInt16"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UInt32"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UInt64"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UInt8"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UUID"]
+- ["s27ExpressibleByIntegerLiteralP", "UnicodeScalarLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Wrapper"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_BooleanLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_IntegerLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_StringLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", "assert"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bitWidth"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bool"]
+- !private ["s27ExpressibleByIntegerLiteralP", "buffer"]
+- !private ["s27ExpressibleByIntegerLiteralP", "date"]
+- ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "float"]
+- !private ["s27ExpressibleByIntegerLiteralP", "format"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "isUnsigned"]
+- ["s27ExpressibleByIntegerLiteralP", "mysqlData"]
+- !private ["s27ExpressibleByIntegerLiteralP", "string"]
+- !private ["s27ExpressibleByIntegerLiteralP", "time"]
+- !private ["s27ExpressibleByIntegerLiteralP", "type"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s32ExpressibleByStringInterpolationP", "debugDescription"]
+- !private ["s32ExpressibleByStringInterpolationP", "utf8"]
+- ["s26ExpressibleByStringLiteralP", "BooleanLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "ByteBufferAllocator"]
+- !private ["s26ExpressibleByStringLiteralP", "Data"]
+- !private ["s26ExpressibleByStringLiteralP", "Double"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "Float"]
+- !private ["s26ExpressibleByStringLiteralP", "Int"]
+- !private ["s26ExpressibleByStringLiteralP", "Int16"]
+- !private ["s26ExpressibleByStringLiteralP", "Int32"]
+- !private ["s26ExpressibleByStringLiteralP", "Int64"]
+- !private ["s26ExpressibleByStringLiteralP", "Int8"]
+- ["s26ExpressibleByStringLiteralP", "IntegerLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "JSONDecoder"]
+- !private ["s26ExpressibleByStringLiteralP", "JSONEncoder"]
+- !private ["s26ExpressibleByStringLiteralP", "MemoryLayout"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "Swift"]
+- !private ["s26ExpressibleByStringLiteralP", "UInt16"]
+- !private ["s26ExpressibleByStringLiteralP", "UInt32"]
+- !private ["s26ExpressibleByStringLiteralP", "UInt64"]
+- !private ["s26ExpressibleByStringLiteralP", "UInt8"]
+- !private ["s26ExpressibleByStringLiteralP", "UUID"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "Wrapper"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_BooleanLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_IntegerLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s26ExpressibleByStringLiteralP", "assert"]
+- !private ["s26ExpressibleByStringLiteralP", "bool"]
+- !private ["s26ExpressibleByStringLiteralP", "buffer"]
+- !private ["s26ExpressibleByStringLiteralP", "date"]
+- !private ["s26ExpressibleByStringLiteralP", "debugDescription"]
+- ["s26ExpressibleByStringLiteralP", "description"]
+- !private ["s26ExpressibleByStringLiteralP", "double"]
+- !private ["s26ExpressibleByStringLiteralP", "float"]
+- !private ["s26ExpressibleByStringLiteralP", "format"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "int"]
+- !private ["s26ExpressibleByStringLiteralP", "isUnsigned"]
+- ["s26ExpressibleByStringLiteralP", "mysqlData"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "time"]
+- !private ["s26ExpressibleByStringLiteralP", "type"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "BooleanLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ByteBufferAllocator"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Double"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Float"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Int"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Int16"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Int32"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Int64"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Int8"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "IntegerLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "JSONDecoder"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "JSONEncoder"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "MemoryLayout"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Swift"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UInt16"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UInt32"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UInt64"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UInt8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UUID"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Wrapper"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_BooleanLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_IntegerLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "assert"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "bool"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "buffer"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "date"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "debugDescription"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "description"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "double"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "float"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "format"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "int"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isUnsigned"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "mysqlData"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "time"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "type"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["s17FixedWidthIntegerP", "bitWidth"]
+- !private ["s17FixedWidthIntegerP", "description"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Sf", "description"]
+- !private ["Sf", "init"]
+- !private ["SF", "description"]
+- !private ["SF", "init"]
+- ["8MySQLNIO0A7SQLDataV6FormatO", "=="]
+- ["8MySQLNIO0A7SQLDataV6FormatO", "__derived_enum_equals"]
+- ["8MySQLNIO0A7SQLDataV6FormatO", "_rawHashValue"]
+- ["8MySQLNIO0A7SQLDataV6FormatO", "binary"]
+- ["8MySQLNIO0A7SQLDataV6FormatO", "deinit"]
+- ["8MySQLNIO0A7SQLDataV6FormatO", "hash"]
+- ["8MySQLNIO0A7SQLDataV6FormatO", "hashValue"]
+- ["8MySQLNIO0A7SQLDataV6FormatO", "text"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "binary"]
+- !private ["SH", "bitWidth"]
+- !private ["SH", "count"]
+- !private ["SH", "debugDescription"]
+- !private ["SH", "description"]
+- !private ["SH", "flatMap"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "little"]
+- !private ["SH", "readBytes"]
+- !private ["SH", "readInteger"]
+- !private ["SH", "readMySQLTime"]
+- !private ["SH", "readString"]
+- !private ["SH", "readableBytes"]
+- !private ["SH", "readableBytesView"]
+- !private ["SH", "subscript"]
+- ["SH", "text"]
+- !private ["SH", "utf8"]
+- !private ["SH", "uuid"]
+- !private ["SH", "writeBytes"]
+- !private ["SH", "writeInteger"]
+- !private ["SH", "writeMySQLTime"]
+- !private ["SH", "writeString"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "bitWidth"]
+- !private ["Si", "deinit"]
+- !private ["Si", "description"]
+- !private ["Si", "init"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["s25LosslessStringConvertibleP", "bitWidth"]
+- !private ["s25LosslessStringConvertibleP", "debugDescription"]
+- !private ["s25LosslessStringConvertibleP", "description"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "bitWidth"]
+- !private ["s10MirrorPathP", "debugDescription"]
+- !private ["s10MirrorPathP", "description"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["SM", "copyBytes"]
+- !private ["SM", "count"]
+- !private ["SM", "description"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "description"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["8MySQLNIO0A7SQLDataV", "Bool"]
+- ["8MySQLNIO0A7SQLDataV", "BooleanLiteralType"]
+- ["8MySQLNIO0A7SQLDataV", "ByteBuffer"]
+- !private ["8MySQLNIO0A7SQLDataV", "ByteBufferAllocator"]
+- !private ["8MySQLNIO0A7SQLDataV", "Data"]
+- ["8MySQLNIO0A7SQLDataV", "Date"]
+- ["8MySQLNIO0A7SQLDataV", "Decodable"]
+- ["8MySQLNIO0A7SQLDataV", "Double"]
+- ["8MySQLNIO0A7SQLDataV", "Encodable"]
+- ["8MySQLNIO0A7SQLDataV", "Encoder"]
+- ["8MySQLNIO0A7SQLDataV", "ExtendedGraphemeClusterLiteralType"]
+- ["8MySQLNIO0A7SQLDataV", "Float"]
+- ["8MySQLNIO0A7SQLDataV", "Format"]
+- ["8MySQLNIO0A7SQLDataV", "Int"]
+- !private ["8MySQLNIO0A7SQLDataV", "Int16"]
+- !private ["8MySQLNIO0A7SQLDataV", "Int32"]
+- !private ["8MySQLNIO0A7SQLDataV", "Int64"]
+- !private ["8MySQLNIO0A7SQLDataV", "Int8"]
+- ["8MySQLNIO0A7SQLDataV", "IntegerLiteralType"]
+- !private ["8MySQLNIO0A7SQLDataV", "JSONDecoder"]
+- !private ["8MySQLNIO0A7SQLDataV", "JSONEncoder"]
+- !private ["8MySQLNIO0A7SQLDataV", "MemoryLayout"]
+- ["8MySQLNIO0A7SQLDataV", "MySQLData"]
+- ["8MySQLNIO0A7SQLDataV", "MySQLProtocol"]
+- ["8MySQLNIO0A7SQLDataV", "MySQLTime"]
+- ["8MySQLNIO0A7SQLDataV", "String"]
+- ["8MySQLNIO0A7SQLDataV", "StringLiteralType"]
+- !private ["8MySQLNIO0A7SQLDataV", "Swift"]
+- !private ["8MySQLNIO0A7SQLDataV", "UInt16"]
+- !private ["8MySQLNIO0A7SQLDataV", "UInt32"]
+- !private ["8MySQLNIO0A7SQLDataV", "UInt64"]
+- !private ["8MySQLNIO0A7SQLDataV", "UInt8"]
+- ["8MySQLNIO0A7SQLDataV", "UUID"]
+- ["8MySQLNIO0A7SQLDataV", "UnicodeScalarLiteralType"]
+- !private ["8MySQLNIO0A7SQLDataV", "Wrapper"]
+- ["8MySQLNIO0A7SQLDataV", "_Default_BooleanLiteralType"]
+- ["8MySQLNIO0A7SQLDataV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["8MySQLNIO0A7SQLDataV", "_Default_IntegerLiteralType"]
+- ["8MySQLNIO0A7SQLDataV", "_Default_StringLiteralType"]
+- ["8MySQLNIO0A7SQLDataV", "_Default_UnicodeScalarLiteralType"]
+- !private ["8MySQLNIO0A7SQLDataV", "assert"]
+- ["8MySQLNIO0A7SQLDataV", "bool"]
+- ["8MySQLNIO0A7SQLDataV", "buffer"]
+- ["8MySQLNIO0A7SQLDataV", "date"]
+- ["8MySQLNIO0A7SQLDataV", "deinit"]
+- ["8MySQLNIO0A7SQLDataV", "description"]
+- ["8MySQLNIO0A7SQLDataV", "double"]
+- ["8MySQLNIO0A7SQLDataV", "float"]
+- ["8MySQLNIO0A7SQLDataV", "format"]
+- ["8MySQLNIO0A7SQLDataV", "init"]
+- ["8MySQLNIO0A7SQLDataV", "int"]
+- ["8MySQLNIO0A7SQLDataV", "isUnsigned"]
+- ["8MySQLNIO0A7SQLDataV", "json"]
+- ["8MySQLNIO0A7SQLDataV", "mysqlData"]
+- ["8MySQLNIO0A7SQLDataV", "null"]
+- ["8MySQLNIO0A7SQLDataV", "string"]
+- ["8MySQLNIO0A7SQLDataV", "time"]
+- ["8MySQLNIO0A7SQLDataV", "type"]
+- ["8MySQLNIO0A7SQLDataV", "uuid"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "BooleanLiteralType"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "ByteBufferAllocator"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Data"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Double"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Float"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Int"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Int16"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Int32"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Int64"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Int8"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "IntegerLiteralType"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "JSONDecoder"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "JSONEncoder"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "MemoryLayout"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "StringLiteralType"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Swift"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "UInt16"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "UInt32"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "UInt64"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "UInt8"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "UUID"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "UnicodeScalarLiteralType"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "Wrapper"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", ""]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "_Default_BooleanLiteralType"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "_Default_IntegerLiteralType"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "_Default_StringLiteralType"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "_Default_UnicodeScalarLiteralType"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "assert"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "bitWidth"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "bool"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "buffer"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "date"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "debugDescription"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "description"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "double"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "float"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "format"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "init"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "int"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "isUnsigned"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "mysqlData"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "string"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "time"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "type"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "utf8"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "uuid"]
+- ["8MySQLNIO0A11SQLProtocolV", "DataType"]
+- !private ["8MySQLNIO0A7SQLTimeV", "date"]
+- !private ["8MySQLNIO0A7SQLTimeV", "deinit"]
+- !private ["8MySQLNIO0A7SQLTimeV", "init"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "bitWidth"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "description"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["So8NSCodingP", "debugDescription"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "debugDescription"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "debugDescription"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "debugDescription"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "debugDescription"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So8NSObjectC", "debugDescription"]
+- !private ["So8NSObjectC", "utf8"]
+- !private ["So8NSObjectP", "debugDescription"]
+- !private ["So8NSObjectP", "utf8"]
+- !private ["So14NSSecureCodingP", "debugDescription"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "debugDescription"]
+- !private ["So8NSStringC", "utf8"]
+- !private ["Sj", "bitWidth"]
+- !private ["Sj", "description"]
+- !private ["Sj", "init"]
+- !private ["Sq", "flatMap"]
+- !private ["Sk", "copyBytes"]
+- !private ["Sk", "count"]
+- !private ["Sk", "description"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "debugDescription"]
+- !private ["Sm", "description"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "utf8"]
+- ["SY", "bit"]
+- ["SY", "blob"]
+- ["SY", "date"]
+- ["SY", "datetime"]
+- ["SY", "double"]
+- ["SY", "float"]
+- ["SY", "int24"]
+- ["SY", "long"]
+- ["SY", "longBlob"]
+- ["SY", "longlong"]
+- ["SY", "mediumBlob"]
+- ["SY", "newdecimal"]
+- !private ["SY", "null"]
+- ["SY", "short"]
+- ["SY", "string"]
+- ["SY", "timestamp"]
+- ["SY", "tiny"]
+- ["SY", "tinyBlob"]
+- ["SY", "varString"]
+- ["SY", "varchar"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "description"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuid"]
+- !private ["s10SIMDScalarP", "bitWidth"]
+- !private ["s10SIMDScalarP", "description"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "copyBytes"]
+- !private ["ST", "count"]
+- !private ["ST", "debugDescription"]
+- !private ["ST", "description"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "utf8"]
+- !private ["SZ", "bitWidth"]
+- !private ["SZ", "description"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "bitWidth"]
+- !private ["s13SignedNumericP", "description"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "bitWidth"]
+- !private ["Sx", "description"]
+- !private ["Sx", "init"]
+- !private ["SS", "debugDescription"]
+- !private ["SS", "utf8"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "debugDescription"]
+- !private ["Sy", "utf8"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "debugDescription"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", "debugDescription"]
+- !private ["s20TextOutputStreamableP", "description"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- !private ["SS8UTF8ViewV", "count"]
+- !private ["10Foundation4UUIDV", "deinit"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuid"]
+- !private ["Sw", "copyBytes"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "description"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "description"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bitWidth"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "debugDescription"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "description"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "description"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "debugDescription"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "description"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bitWidth"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "description"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "debugDescription"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "debugDescription"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s19_HasContiguousBytesP", "copyBytes"]
+- !private ["s19_HasContiguousBytesP", "debugDescription"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bitWidth"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "debugDescription"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "description"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "bitWidth"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "debugDescription"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "uuid"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "Sb"
+- !private "3NIO10ByteBufferV"
+- !private "3NIO19ByteBufferAllocatorV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "8MySQLNIO0A11SQLProtocolV8DataTypeV"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- "SE"
+- !private "3NIO10EndiannessO"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "SF"
+- "8MySQLNIO0A7SQLDataV6FormatO"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "8MySQLNIO0A7SQLDataV"
+- "8MySQLNIO0A18SQLDataConvertibleP"
+- "8MySQLNIO0A11SQLProtocolV"
+- !private "8MySQLNIO0A7SQLTimeV"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "7Combine15TopLevelEncoderP"
+- !private "SS8UTF8ViewV"
+- !private "10Foundation4UUIDV"
+- !private "Sw"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a27013aece08706e52d0afb2d7164356"

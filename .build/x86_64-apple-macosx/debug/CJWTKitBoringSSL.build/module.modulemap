@@ -1,0 +1,4 @@
+module CJWTKitBoringSSL {
+    umbrella header "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL.h"
+    export *
+}

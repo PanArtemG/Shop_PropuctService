@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/master.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/Deprecated.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Deprecated.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Deprecated.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Deprecated.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/Exports.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Exports.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Exports.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Exports.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Fluent+Paginate.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Fluent+Paginate.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Fluent+Paginate~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Fluent+Paginate.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Fluent+Sessions.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Fluent+Sessions.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Fluent+Sessions~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/Fluent+Sessions.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/FluentProvider.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/FluentProvider.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/FluentProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/FluentProvider.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/MigrateCommand.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/MigrateCommand.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/MigrateCommand~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/MigrateCommand.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/ModelAuthenticatable.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/ModelAuthenticatable.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/ModelAuthenticatable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/ModelAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/ModelAuthenticatable.swiftdeps"
+  },
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/ModelTokenAuthenticatable.swift": {
+    "dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/ModelTokenAuthenticatable.d",
+    "object": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/ModelTokenAuthenticatable.swift.o",
+    "swiftmodule": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/ModelTokenAuthenticatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/ModelTokenAuthenticatable.swiftdeps"
+  }
+}

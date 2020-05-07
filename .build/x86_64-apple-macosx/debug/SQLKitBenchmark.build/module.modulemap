@@ -1,0 +1,4 @@
+module SQLKitBenchmark {
+    header "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/SQLKitBenchmark-Swift.h"
+    requires objc
+}

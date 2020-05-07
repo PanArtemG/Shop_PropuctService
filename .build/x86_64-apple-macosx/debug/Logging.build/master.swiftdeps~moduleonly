@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "2ce2f4e83886c8d1fd626545687abaf2"
+build_time: [1588863850, 441293000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-log/Sources/Logging/Locks.swift": [1588863838, 595086720]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": [1588863838, 561082105]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-log/Sources/Logging/Logging.swift": [1588863838, 595441553]

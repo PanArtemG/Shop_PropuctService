@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "cc1b5dd54c9bd54a83da59ab0c649b1a"
+build_time: [1588863921, 723095000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseQuery+SQL.swift": [1588863837, 383837800]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseSchema+SQL.swift": [1588863837, 383977207]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent-kit/Sources/FluentSQL/Exports.swift": [1588863837, 384123701]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLJSONColumnPath.swift": [1588863837, 384262937]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLQueryConverter.swift": [1588863837, 384481473]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLSchemaConverter.swift": [1588863837, 384664816]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent-kit/Sources/FluentSQL/Utilities.swift": [1588863837, 384812341]

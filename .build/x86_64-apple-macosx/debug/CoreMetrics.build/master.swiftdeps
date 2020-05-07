@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "4893d90281af654675f7241dabd25208"
+build_time: [1588863851, 151676000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-metrics/Sources/CoreMetrics/Locks.swift": [1588863834, 937016368]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-metrics/Sources/CoreMetrics/Metrics.swift": [1588863834, 905559094]

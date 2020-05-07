@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "7a3d3b697e4116643a91d95d062908a2"
+build_time: [1588863850, 441030000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/routing-kit/Sources/RoutingKit/Parameters.swift": [1588863834, 523165061]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/routing-kit/Sources/RoutingKit/PathComponent.swift": [1588863834, 523340818]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/routing-kit/Sources/RoutingKit/Router.swift": [1588863834, 523485073]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/routing-kit/Sources/RoutingKit/TrieRouter.swift": [1588863834, 523674880]

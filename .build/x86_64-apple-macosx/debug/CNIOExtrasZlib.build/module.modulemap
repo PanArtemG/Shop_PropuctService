@@ -1,0 +1,4 @@
+module CNIOExtrasZlib {
+    umbrella header "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+    export *
+}

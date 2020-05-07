@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "0ba18728c85087cd158e9fdd92cddc20"
+build_time: [1588863936, 370228000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/mysql-kit/Sources/MySQLKit/ConnectionPool+MySQL.swift": [1588863835, 718870782]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/mysql-kit/Sources/MySQLKit/Exports.swift": [1588863835, 718999929]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/mysql-kit/Sources/MySQLKit/MySQLDataDecoder.swift": [1588863835, 719130565]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/mysql-kit/Sources/MySQLKit/MySQLDataEncoder.swift": [1588863835, 719324296]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/mysql-kit/Sources/MySQLKit/MySQLDatabase+SQL.swift": [1588863835, 719521083]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/mysql-kit/Sources/MySQLKit/MySQLDatabase.swift": [1588863835, 719678949]

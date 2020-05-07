@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "bc78e99a673ca2dd1fa8f1039883fe47"
+build_time: [1588863943, 912593000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt/Sources/JWT/Application+JWT.swift": [1588863836, 381649491]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt/Sources/JWT/Exports.swift": [1588863836, 381929535]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt/Sources/JWT/JWKSCache.swift": [1588863836, 382206144]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt/Sources/JWT/JWT+Apple.swift": [1588863836, 382478157]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt/Sources/JWT/JWT+Google.swift": [1588863836, 382712763]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt/Sources/JWT/JWTAuthenticator.swift": [1588863836, 382907568]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt/Sources/JWT/JWTError+Vapor.swift": [1588863836, 383147991]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt/Sources/JWT/Request+JWT.swift": [1588863836, 383397306]

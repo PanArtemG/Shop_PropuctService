@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "12457c9216b5b6e41cf386e4e9914dce"
+build_time: [1588863946, 37641000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/App/Configure.swift": [1588684655, 422594666]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/App/Controllers/TodoController.swift": [1588684655, 422828913]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/App/Migrations/CreateTodo.swift": [1588684655, 423002243]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/App/Models/Database/Todo.swift": [1588684655, 423217893]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/App/Routes.swift": [1588684655, 423559785]

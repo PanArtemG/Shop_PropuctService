@@ -1,0 +1,4 @@
+module MySQLKit {
+    header "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLKit.build/MySQLKit-Swift.h"
+    requires objc
+}

@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "2a517055e984c3e1fdf530c9096acc39"
+build_time: [1588863943, 912593000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/Deprecated.swift": [1588863840, 651813380]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/Exports.swift": [1588863840, 651946518]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift": [1588863840, 652060220]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift": [1588863840, 652197119]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift": [1588863840, 652359742]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift": [1588863840, 652491145]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/ModelAuthenticatable.swift": [1588863840, 652637647]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/fluent/Sources/Fluent/ModelTokenAuthenticatable.swift": [1588863840, 652742852]

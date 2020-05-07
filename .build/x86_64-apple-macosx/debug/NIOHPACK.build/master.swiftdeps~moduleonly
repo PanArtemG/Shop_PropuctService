@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "0e78589c6a001c31db204bd00c16d69d"
+build_time: [1588863918, 695164000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/DynamicHeaderTable.swift": [1588863836, 587508078]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKDecoder.swift": [1588863836, 587732878]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKEncoder.swift": [1588863836, 587949051]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKErrors.swift": [1588863836, 588138210]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKHeader.swift": [1588863836, 588393327]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HeaderTables.swift": [1588863836, 588627250]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanCoding.swift": [1588863836, 588870929]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanTables.swift": [1588863836, 589664744]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IndexedHeaderTable.swift": [1588863836, 589894072]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IntegerCoding.swift": [1588863836, 590189958]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/StaticHeaderTable.swift": [1588863836, 590484635]

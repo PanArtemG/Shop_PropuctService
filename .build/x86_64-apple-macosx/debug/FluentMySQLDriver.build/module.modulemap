@@ -1,0 +1,4 @@
+module FluentMySQLDriver {
+    header "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/FluentMySQLDriver-Swift.h"
+    requires objc
+}

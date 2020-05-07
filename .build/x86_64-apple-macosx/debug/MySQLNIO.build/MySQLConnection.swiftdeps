@@ -1,0 +1,489 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MySQLConnection"
+- "ErrorHandler"
+provides-nominal:
+- "8MySQLNIO0A13SQLConnectionC"
+- "8MySQLNIO12ErrorHandlerC"
+provides-member:
+- ["8MySQLNIO0A13SQLConnectionC", ""]
+- ["8MySQLNIO12ErrorHandlerC", ""]
+provides-dynamic-lookup:
+- "channel"
+- "close"
+- "connect"
+- "errorCaught"
+- "eventLoop"
+- "isClosed"
+- "logger"
+- "send"
+- "withConnection"
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "ByteToMessageHandler"
+- "Channel"
+- "ChannelHandlerContext"
+- "ChannelInboundHandler"
+- !private "ChannelOptions"
+- !private "ClientBootstrap"
+- "Error"
+- "ErrorHandler"
+- "EventLoop"
+- "EventLoopFuture"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Logger"
+- !private "MessageToByteHandler"
+- "MySQLCommand"
+- !private "MySQLCommandContext"
+- "MySQLConnection"
+- !private "MySQLConnectionHandler"
+- "MySQLDatabase"
+- !private "MySQLPacketDecoder"
+- !private "MySQLPacketEncoder"
+- !private "MySQLPacketSequence"
+- "Never"
+- !private "SOL_SOCKET"
+- !private "SO_REUSEADDR"
+- "SocketAddress"
+- !private "SocketOptionLevel"
+- "String"
+- "StringLiteralType"
+- "TLSConfiguration"
+- "Void"
+- !private "assert"
+- !private "assertionFailure"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["Sz", "init"]
+- !private ["3NIO20ByteToMessageDecoderP", "init"]
+- !private ["3NIO20ByteToMessageHandlerC", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["3NIO7ChannelP", "close"]
+- !private ["3NIO7ChannelP", "eventLoop"]
+- !private ["3NIO7ChannelP", "isActive"]
+- !private ["3NIO7ChannelP", "pipeline"]
+- !private ["3NIO7ChannelP", "write"]
+- ["3NIO14ChannelHandlerP", "InboundIn"]
+- ["3NIO14ChannelHandlerP", "InboundOut"]
+- ["3NIO14ChannelHandlerP", "OutboundOut"]
+- ["3NIO14ChannelHandlerP", ""]
+- ["3NIO14ChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO14ChannelHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO14ChannelHandlerP", "assertionFailure"]
+- ["3NIO14ChannelHandlerP", "channelActive"]
+- ["3NIO14ChannelHandlerP", "channelInactive"]
+- ["3NIO14ChannelHandlerP", "channelRead"]
+- ["3NIO14ChannelHandlerP", "channelReadComplete"]
+- ["3NIO14ChannelHandlerP", "channelRegistered"]
+- ["3NIO14ChannelHandlerP", "channelUnregistered"]
+- ["3NIO14ChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO14ChannelHandlerP", "errorCaught"]
+- ["3NIO14ChannelHandlerP", "handlerAdded"]
+- ["3NIO14ChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO14ChannelHandlerP", "init"]
+- ["3NIO14ChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO14ChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO14ChannelHandlerP", "wrapInboundOut"]
+- ["3NIO14ChannelHandlerP", "wrapOutboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "OutboundOut"]
+- ["3NIO21ChannelInboundHandlerP", ""]
+- ["3NIO21ChannelInboundHandlerP", "_Default_InboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO21ChannelInboundHandlerP", "assertionFailure"]
+- ["3NIO21ChannelInboundHandlerP", "channelActive"]
+- ["3NIO21ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO21ChannelInboundHandlerP", "channelRead"]
+- ["3NIO21ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO21ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO21ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO21ChannelInboundHandlerP", "errorCaught"]
+- ["3NIO21ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO21ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO21ChannelInboundHandlerP", "init"]
+- ["3NIO21ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO21ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO21ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO21ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO21ChannelInboundInvokerP", "addHandlers"]
+- !private ["3NIO14ChannelInvokerP", "addHandlers"]
+- !private ["3NIO14ChannelOptionsV", "socket"]
+- !private ["3NIO22ChannelOutboundHandlerP", "init"]
+- !private ["3NIO22ChannelOutboundInvokerP", "addHandlers"]
+- !private ["3NIO22ChannelOutboundInvokerP", "close"]
+- !private ["3NIO22ChannelOutboundInvokerP", "eventLoop"]
+- !private ["3NIO22ChannelOutboundInvokerP", "isActive"]
+- !private ["3NIO22ChannelOutboundInvokerP", "pipeline"]
+- !private ["3NIO22ChannelOutboundInvokerP", "write"]
+- !private ["3NIO15ChannelPipelineC", "addHandlers"]
+- !private ["3NIO15ClientBootstrapC", "channelOption"]
+- !private ["3NIO15ClientBootstrapC", "connect"]
+- !private ["3NIO15ClientBootstrapC", "init"]
+- !private ["3NIO9CloseModeO", "all"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "addHandlers"]
+- !private ["s28CustomDebugStringConvertibleP", "forClient"]
+- !private ["s17CustomReflectableP", "forClient"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "forClient"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "forClient"]
+- !private ["SE", "init"]
+- !private ["SQ", "all"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "forClient"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "whenFailure"]
+- ["8MySQLNIO12ErrorHandlerC", "ChannelHandlerContext"]
+- ["8MySQLNIO12ErrorHandlerC", "Error"]
+- ["8MySQLNIO12ErrorHandlerC", "InboundIn"]
+- ["8MySQLNIO12ErrorHandlerC", "InboundOut"]
+- ["8MySQLNIO12ErrorHandlerC", "Never"]
+- ["8MySQLNIO12ErrorHandlerC", "OutboundOut"]
+- ["8MySQLNIO12ErrorHandlerC", "_Default_InboundOut"]
+- ["8MySQLNIO12ErrorHandlerC", "_Default_OutboundOut"]
+- !private ["8MySQLNIO12ErrorHandlerC", "assertionFailure"]
+- ["8MySQLNIO12ErrorHandlerC", "channelActive"]
+- ["8MySQLNIO12ErrorHandlerC", "channelInactive"]
+- ["8MySQLNIO12ErrorHandlerC", "channelRead"]
+- ["8MySQLNIO12ErrorHandlerC", "channelReadComplete"]
+- ["8MySQLNIO12ErrorHandlerC", "channelRegistered"]
+- ["8MySQLNIO12ErrorHandlerC", "channelUnregistered"]
+- ["8MySQLNIO12ErrorHandlerC", "channelWritabilityChanged"]
+- ["8MySQLNIO12ErrorHandlerC", "deinit"]
+- ["8MySQLNIO12ErrorHandlerC", "errorCaught"]
+- ["8MySQLNIO12ErrorHandlerC", "handlerAdded"]
+- ["8MySQLNIO12ErrorHandlerC", "handlerRemoved"]
+- ["8MySQLNIO12ErrorHandlerC", "init"]
+- ["8MySQLNIO12ErrorHandlerC", "unwrapInboundIn"]
+- ["8MySQLNIO12ErrorHandlerC", "userInboundEventTriggered"]
+- ["8MySQLNIO12ErrorHandlerC", "wrapInboundOut"]
+- ["8MySQLNIO12ErrorHandlerC", "wrapOutboundOut"]
+- !private ["3NIO9EventLoopP", "makePromise"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO15EventLoopFutureC", "whenFailure"]
+- !private ["3NIO14EventLoopGroupP", "makePromise"]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["3NIO16EventLoopPromiseV", "futureResult"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "forClient"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["8MySQLNIO0A20SQLConnectionHandlerC14HandshakeStateV", "init"]
+- !private ["SH", "all"]
+- !private ["SH", "forClient"]
+- !private ["SH", "init"]
+- !private ["s5Int32V", "deinit"]
+- !private ["s5Int32V", "init"]
+- !private ["7Logging6LoggerV", "debug"]
+- !private ["7Logging6LoggerV", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["3NIO20MessageToByteEncoderP", "init"]
+- !private ["3NIO20MessageToByteHandlerC", "init"]
+- !private ["8MySQLNIO0A17SQLCommandContextV", "init"]
+- ["8MySQLNIO0A13SQLConnectionC", "Bool"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "ByteToMessageHandler"]
+- ["8MySQLNIO0A13SQLConnectionC", "Channel"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "ChannelOptions"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "ClientBootstrap"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "ErrorHandler"]
+- ["8MySQLNIO0A13SQLConnectionC", "EventLoop"]
+- ["8MySQLNIO0A13SQLConnectionC", "EventLoopFuture"]
+- ["8MySQLNIO0A13SQLConnectionC", "Logger"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "MessageToByteHandler"]
+- ["8MySQLNIO0A13SQLConnectionC", "MySQLCommand"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "MySQLCommandContext"]
+- ["8MySQLNIO0A13SQLConnectionC", "MySQLConnection"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "MySQLConnectionHandler"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "MySQLPacketDecoder"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "MySQLPacketEncoder"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "MySQLPacketSequence"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "SOL_SOCKET"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "SO_REUSEADDR"]
+- ["8MySQLNIO0A13SQLConnectionC", "SocketAddress"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "SocketOptionLevel"]
+- ["8MySQLNIO0A13SQLConnectionC", "String"]
+- ["8MySQLNIO0A13SQLConnectionC", "TLSConfiguration"]
+- ["8MySQLNIO0A13SQLConnectionC", "Void"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "assert"]
+- ["8MySQLNIO0A13SQLConnectionC", "channel"]
+- ["8MySQLNIO0A13SQLConnectionC", "close"]
+- ["8MySQLNIO0A13SQLConnectionC", "connect"]
+- ["8MySQLNIO0A13SQLConnectionC", "deinit"]
+- ["8MySQLNIO0A13SQLConnectionC", "eventLoop"]
+- ["8MySQLNIO0A13SQLConnectionC", "init"]
+- ["8MySQLNIO0A13SQLConnectionC", "isClosed"]
+- ["8MySQLNIO0A13SQLConnectionC", "logger"]
+- ["8MySQLNIO0A13SQLConnectionC", "send"]
+- ["8MySQLNIO0A13SQLConnectionC", "withConnection"]
+- !private ["8MySQLNIO0A20SQLConnectionHandlerC", "deinit"]
+- !private ["8MySQLNIO0A20SQLConnectionHandlerC", "init"]
+- !private ["8MySQLNIO0A18SQLDataConvertibleP", "init"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "ByteToMessageHandler"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "ChannelOptions"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "ClientBootstrap"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "ErrorHandler"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "MessageToByteHandler"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "MySQLCommandContext"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "MySQLConnection"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "MySQLConnectionHandler"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "MySQLPacketDecoder"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "MySQLPacketEncoder"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "MySQLPacketSequence"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "SOL_SOCKET"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "SO_REUSEADDR"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "SocketOptionLevel"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "Void"]
+- ["8MySQLNIO0A11SQLDatabaseP", ""]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "assert"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "channel"]
+- ["8MySQLNIO0A11SQLDatabaseP", "eventLoop"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "init"]
+- ["8MySQLNIO0A11SQLDatabaseP", "logger"]
+- ["8MySQLNIO0A11SQLDatabaseP", "send"]
+- ["8MySQLNIO0A11SQLDatabaseP", "withConnection"]
+- !private ["8MySQLNIO0A16SQLPacketDecoderV", "deinit"]
+- !private ["8MySQLNIO0A16SQLPacketDecoderV", "init"]
+- !private ["8MySQLNIO0A16SQLPacketEncoderC", "deinit"]
+- !private ["8MySQLNIO0A16SQLPacketEncoderC", "init"]
+- !private ["8MySQLNIO0A17SQLPacketSequenceC", "init"]
+- !private ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- !private ["3NIO29NIOClientTCPBootstrapProtocolP", "channelOption"]
+- !private ["3NIO29NIOClientTCPBootstrapProtocolP", "connect"]
+- !private ["3NIO29NIOClientTCPBootstrapProtocolP", "init"]
+- !private ["Sj", "init"]
+- !private ["Sq", "forClient"]
+- !private ["3NIO15ChannelPipelineC8PositionO", "last"]
+- !private ["3NIO23RemovableChannelHandlerP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["8MySQLNIO0A20SQLConnectionHandlerC5StateO", "handshake"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["6NIOSSL16TLSConfigurationV", "forClient"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "OutboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", ""]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_InboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO22_ChannelInboundHandlerP", "assertionFailure"]
+- ["3NIO22_ChannelInboundHandlerP", "channelActive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelInactive"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRead"]
+- ["3NIO22_ChannelInboundHandlerP", "channelReadComplete"]
+- ["3NIO22_ChannelInboundHandlerP", "channelRegistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelUnregistered"]
+- ["3NIO22_ChannelInboundHandlerP", "channelWritabilityChanged"]
+- ["3NIO22_ChannelInboundHandlerP", "errorCaught"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerAdded"]
+- ["3NIO22_ChannelInboundHandlerP", "handlerRemoved"]
+- !private ["3NIO22_ChannelInboundHandlerP", "init"]
+- ["3NIO22_ChannelInboundHandlerP", "unwrapInboundIn"]
+- ["3NIO22_ChannelInboundHandlerP", "userInboundEventTriggered"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapInboundOut"]
+- ["3NIO22_ChannelInboundHandlerP", "wrapOutboundOut"]
+- !private ["3NIO23_ChannelOutboundHandlerP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "OutboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", ""]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_InboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "_Default_OutboundOut"]
+- !private ["3NIO23_EmittingChannelHandlerP", "assertionFailure"]
+- ["3NIO23_EmittingChannelHandlerP", "channelActive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelInactive"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRead"]
+- ["3NIO23_EmittingChannelHandlerP", "channelReadComplete"]
+- ["3NIO23_EmittingChannelHandlerP", "channelRegistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelUnregistered"]
+- ["3NIO23_EmittingChannelHandlerP", "channelWritabilityChanged"]
+- ["3NIO23_EmittingChannelHandlerP", "errorCaught"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerAdded"]
+- ["3NIO23_EmittingChannelHandlerP", "handlerRemoved"]
+- !private ["3NIO23_EmittingChannelHandlerP", "init"]
+- ["3NIO23_EmittingChannelHandlerP", "unwrapInboundIn"]
+- ["3NIO23_EmittingChannelHandlerP", "userInboundEventTriggered"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapInboundOut"]
+- ["3NIO23_EmittingChannelHandlerP", "wrapOutboundOut"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "forClient"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "Sz"
+- !private "3NIO20ByteToMessageDecoderP"
+- !private "3NIO20ByteToMessageHandlerC"
+- !private "s7CVarArgP"
+- !private "3NIO7ChannelP"
+- "3NIO14ChannelHandlerP"
+- "3NIO21ChannelInboundHandlerP"
+- !private "3NIO21ChannelInboundInvokerP"
+- !private "3NIO14ChannelInvokerP"
+- !private "3NIO14ChannelOptionsV"
+- !private "3NIO22ChannelOutboundHandlerP"
+- !private "3NIO22ChannelOutboundInvokerP"
+- !private "3NIO15ChannelPipelineC"
+- !private "3NIO15ClientBootstrapC"
+- !private "3NIO9CloseModeO"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- "8MySQLNIO12ErrorHandlerC"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "3NIO16EventLoopPromiseV"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "8MySQLNIO0A20SQLConnectionHandlerC14HandshakeStateV"
+- !private "SH"
+- !private "s5Int32V"
+- !private "7Logging6LoggerV"
+- !private "s25LosslessStringConvertibleP"
+- !private "3NIO20MessageToByteEncoderP"
+- !private "3NIO20MessageToByteHandlerC"
+- !private "8MySQLNIO0A17SQLCommandContextV"
+- "8MySQLNIO0A13SQLConnectionC"
+- !private "8MySQLNIO0A20SQLConnectionHandlerC"
+- !private "8MySQLNIO0A18SQLDataConvertibleP"
+- "8MySQLNIO0A11SQLDatabaseP"
+- !private "8MySQLNIO0A16SQLPacketDecoderV"
+- !private "8MySQLNIO0A16SQLPacketEncoderC"
+- !private "8MySQLNIO0A17SQLPacketSequenceC"
+- !private "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- !private "3NIO29NIOClientTCPBootstrapProtocolP"
+- !private "Sj"
+- !private "Sq"
+- !private "3NIO15ChannelPipelineC8PositionO"
+- !private "3NIO23RemovableChannelHandlerP"
+- !private "s10SIMDScalarP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "8MySQLNIO0A20SQLConnectionHandlerC5StateO"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "6NIOSSL16TLSConfigurationV"
+- !private "s16TextOutputStreamP"
+- "3NIO22_ChannelInboundHandlerP"
+- !private "3NIO23_ChannelOutboundHandlerP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "3NIO23_EmittingChannelHandlerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4d37f66e124067d7a7dcc7f38573a4f3"

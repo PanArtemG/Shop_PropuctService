@@ -1,0 +1,324 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["10Foundation12DataProtocolP", ""]
+- ["s5UInt8V", ""]
+- ["10Foundation12DataProtocolP", "copyBytes"]
+- ["s5UInt8V", "period"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Character"
+- "DataProtocol"
+- !private "ExtendedGraphemeClusterType"
+- !private "StringLiteralType"
+- "UInt8"
+- !private "UnicodeScalarType"
+- !private "UnsafeMutableBufferPointer"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "Character"]
+- !private ["Sa", "init"]
+- ["SK", "UInt8"]
+- !private ["SK", "UnsafeMutableBufferPointer"]
+- !private ["SK", "allocate"]
+- !private ["SK", "copyBytes"]
+- !private ["SK", "count"]
+- !private ["SK", "deallocate"]
+- !private ["SK", "init"]
+- !private ["SK", "withContiguousStorageIfAvailable"]
+- !private ["Sz", "Character"]
+- !private ["s7CVarArgP", "Character"]
+- !private ["s7CVarArgP", "init"]
+- !private ["SJ", "asciiValue"]
+- ["Sl", "UInt8"]
+- !private ["Sl", "UnsafeMutableBufferPointer"]
+- !private ["Sl", "allocate"]
+- !private ["Sl", "copyBytes"]
+- !private ["Sl", "count"]
+- !private ["Sl", "deallocate"]
+- !private ["Sl", "init"]
+- !private ["Sl", "withContiguousStorageIfAvailable"]
+- !private ["SL", "Character"]
+- !private ["SL", "asciiValue"]
+- !private ["10Foundation15ContiguousBytesP", "allocate"]
+- !private ["10Foundation15ContiguousBytesP", "deallocate"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "asciiValue"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "Character"]
+- !private ["s17CustomReflectableP", "asciiValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Character"]
+- !private ["s23CustomStringConvertibleP", "asciiValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["10Foundation12DataProtocolP", "UInt8"]
+- !private ["10Foundation12DataProtocolP", "UnsafeMutableBufferPointer"]
+- ["10Foundation12DataProtocolP", "copyBytes"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "withContiguousStorageIfAvailable"]
+- !private ["Se", "Character"]
+- !private ["Se", "init"]
+- !private ["SE", "Character"]
+- !private ["SE", "init"]
+- !private ["SQ", "Character"]
+- !private ["SQ", "asciiValue"]
+- !private ["SQ", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "asciiValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Character"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "asciiValue"]
+- !private ["s17FixedWidthIntegerP", "Character"]
+- !private ["SH", "Character"]
+- !private ["SH", "asciiValue"]
+- !private ["SH", "init"]
+- !private ["s25LosslessStringConvertibleP", "Character"]
+- !private ["s25LosslessStringConvertibleP", "asciiValue"]
+- !private ["SM", "allocate"]
+- !private ["SM", "deallocate"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["Sj", "Character"]
+- ["Sk", "UInt8"]
+- !private ["Sk", "UnsafeMutableBufferPointer"]
+- !private ["Sk", "allocate"]
+- !private ["Sk", "copyBytes"]
+- !private ["Sk", "count"]
+- !private ["Sk", "deallocate"]
+- !private ["Sk", "init"]
+- !private ["Sk", "withContiguousStorageIfAvailable"]
+- !private ["Sm", "init"]
+- !private ["s10SIMDScalarP", "Character"]
+- ["ST", "UInt8"]
+- !private ["ST", "UnsafeMutableBufferPointer"]
+- !private ["ST", "allocate"]
+- !private ["ST", "copyBytes"]
+- !private ["ST", "count"]
+- !private ["ST", "deallocate"]
+- !private ["ST", "init"]
+- !private ["ST", "withContiguousStorageIfAvailable"]
+- !private ["Sx", "Character"]
+- !private ["s20TextOutputStreamableP", "asciiValue"]
+- !private ["s5UInt8V", "Character"]
+- ["s5UInt8V", "UInt8"]
+- ["s5UInt8V", "period"]
+- !private ["Sr", "allocate"]
+- !private ["Sr", "deallocate"]
+- !private ["SU", "Character"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Character"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "asciiValue"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "asciiValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Character"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "asciiValue"]
+- !private ["s19_HasContiguousBytesP", "allocate"]
+- !private ["s19_HasContiguousBytesP", "deallocate"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Character"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "Character"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s14_StringElementP", "Character"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "SJ"
+- "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- "s5UInt8V"
+- !private "Sr"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_asn1.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_dtls1.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pkcs12.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_e_os2.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_x509v3.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_base64.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_rc4.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_md4.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_poly1305.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_md5.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pkcs7.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pkcs8.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_x509.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_curve25519.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_chacha.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_sha.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_dsa.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ecdsa.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_rsa.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ex_data.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_asn1_mac.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_obj_mac.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cmac.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_hmac.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ec.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_aead.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_thread.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_nid.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ripemd.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_rand.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_engine.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_base.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_hkdf.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_conf.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_opensslconf.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_buf.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_bytestring.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_arm_arch.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_dh.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ecdh.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_lhash.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_siphash.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_blowfish.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_obj.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_stack.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_safestack.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_type_check.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pool.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_is_boringssl.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_mem.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pem.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_boringssl_prefix_symbols_asm.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_span.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_bn.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_bio.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_crypto.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_evp.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ossl_typ.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_buffer.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cipher.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_err.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_aes.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_des.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_boringssl_prefix_symbols.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_hrss.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_objects.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_asn1t.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cast.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_digest.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cpu.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_opensslv.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ec_key.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_x509_vfy.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5ea6cff5bacdff41d3ea991cb8c4a250"

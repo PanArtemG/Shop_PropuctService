@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "ccedc65c6fe910211bdf7d027f2b29fc"
+build_time: [1588863929, 323210000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/websocket-kit/Sources/WebSocketKit/Exports.swift": [1588863834, 721932879]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/websocket-kit/Sources/WebSocketKit/HTTPInitialRequestHandler.swift": [1588863834, 722112098]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket+Connect.swift": [1588863834, 722238495]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket.swift": [1588863834, 745991240]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketClient.swift": [1588863834, 722576673]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketHandler.swift": [1588863834, 746242993]

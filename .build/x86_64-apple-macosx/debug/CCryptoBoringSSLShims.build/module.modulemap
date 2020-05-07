@@ -1,0 +1,4 @@
+module CCryptoBoringSSLShims {
+    umbrella header "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-crypto/Sources/CCryptoBoringSSLShims/include/CCryptoBoringSSLShims.h"
+    export *
+}

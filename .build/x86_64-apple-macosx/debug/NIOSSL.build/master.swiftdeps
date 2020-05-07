@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "e20f2c5038c5dbc910f4d8b6cb2da8ea"
+build_time: [1588863916, 972939000]
+inputs:
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/ByteBufferBIO.swift": [1588863839, 491399197]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/IdentityVerification.swift": [1588863839, 366647278]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/LinuxCABundle.swift": [1588863839, 366819018]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLClientHandler.swift": [1588863839, 366991139]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLHandler.swift": [1588863839, 491776692]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLServerHandler.swift": [1588863839, 367661340]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/PosixPort.swift": [1588863839, 367833948]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLCallbacks.swift": [1588863839, 492035278]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLCertificate.swift": [1588863839, 492353653]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLConnection.swift": [1588863839, 492704772]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLContext.swift": [1588863839, 493293285]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLErrors.swift": [1588863839, 493630219]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLInit.swift": [1588863839, 493849098]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPKCS12Bundle.swift": [1588863839, 494111235]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPrivateKey.swift": [1588863839, 494411868]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPublicKey.swift": [1588863839, 494675668]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SecurityFrameworkCertificateVerification.swift": [1588863839, 494978570]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/TLSConfiguration.swift": [1588863839, 495216871]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/UniversalBootstrapSupport.swift": [1588863839, 370067684]

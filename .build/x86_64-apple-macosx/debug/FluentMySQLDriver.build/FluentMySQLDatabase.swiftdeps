@@ -1,0 +1,530 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_FluentMySQLDatabase"
+- "LastInsertIDInitializable"
+provides-nominal:
+- "17FluentMySQLDriver01_aB11SQLDatabaseV"
+- "17FluentMySQLDriver25LastInsertIDInitializableP"
+- "s6UInt64V"
+- "Su"
+- "Si"
+- "s5Int64V"
+provides-member:
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", ""]
+- ["17FluentMySQLDriver25LastInsertIDInitializableP", ""]
+- ["s6UInt64V", ""]
+- ["Su", ""]
+- ["Si", ""]
+- ["s5Int64V", ""]
+- ["17FluentMySQLDriver25LastInsertIDInitializableP", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "Database"
+- "DatabaseContext"
+- "DatabaseEnum"
+- "DatabaseOutput"
+- "DatabaseQuery"
+- "DatabaseSchema"
+- "Decodable"
+- "EventLoopFuture"
+- "FieldKey"
+- "FixedWidthInteger"
+- "FloatLiteralType"
+- "Int"
+- "Int64"
+- "IntegerLiteralType"
+- "LastInsertIDInitializable"
+- !private "LastInsertRow"
+- "Logger"
+- "MySQLCommand"
+- "MySQLConnection"
+- !private "MySQLConverterDelegate"
+- !private "MySQLDataEncoder"
+- "MySQLDatabase"
+- !private "MySQLDialect"
+- "MySQLQueryMetadata"
+- "SQLDatabase"
+- "SQLDialect"
+- "SQLExpression"
+- !private "SQLQueryConverter"
+- "SQLRow"
+- !private "SQLSchemaConverter"
+- "String"
+- "StringLiteralType"
+- "UInt"
+- "UInt64"
+- !private "UnicodeScalarType"
+- "Void"
+- "_FluentMySQLDatabase"
+- !private "fatalError"
+- !private "numericCast"
+- !private "||"
+depends-member:
+- !private ["9FluentKit13DatabaseQueryV6ActionO", "create"]
+- ["s18AdditiveArithmeticP", "FixedWidthInteger"]
+- ["s18AdditiveArithmeticP", "UInt64"]
+- ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "numericCast"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "subscript"]
+- ["Sz", "FixedWidthInteger"]
+- ["Sz", "UInt64"]
+- ["Sz", "init"]
+- !private ["Sz", "numericCast"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- ["SL", "FixedWidthInteger"]
+- ["SL", "UInt64"]
+- ["SL", "init"]
+- !private ["SL", "numericCast"]
+- !private ["8AsyncKit18ConnectionPoolItemP", "simpleQuery"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "FixedWidthInteger"]
+- ["s23CustomStringConvertibleP", "UInt64"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "action"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "create"]
+- !private ["s23CustomStringConvertibleP", "customIDKey"]
+- !private ["s23CustomStringConvertibleP", "databaseOutput"]
+- ["s23CustomStringConvertibleP", "decode"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "metadata"]
+- !private ["s23CustomStringConvertibleP", "numericCast"]
+- ["s23CustomStringConvertibleP", "schema"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["9FluentKit8DatabaseP", "LastInsertRow"]
+- !private ["9FluentKit8DatabaseP", "MySQLConverterDelegate"]
+- !private ["9FluentKit8DatabaseP", "MySQLDataEncoder"]
+- !private ["9FluentKit8DatabaseP", "MySQLDialect"]
+- !private ["9FluentKit8DatabaseP", "SQLQueryConverter"]
+- !private ["9FluentKit8DatabaseP", "SQLSchemaConverter"]
+- ["9FluentKit8DatabaseP", ""]
+- !private ["9FluentKit8DatabaseP", "_FluentMySQLDatabase"]
+- ["9FluentKit8DatabaseP", "context"]
+- !private ["9FluentKit8DatabaseP", "database"]
+- ["9FluentKit8DatabaseP", "dialect"]
+- ["9FluentKit8DatabaseP", "eventLoop"]
+- ["9FluentKit8DatabaseP", "execute"]
+- !private ["9FluentKit8DatabaseP", "fatalError"]
+- !private ["9FluentKit8DatabaseP", "init"]
+- ["9FluentKit8DatabaseP", "logger"]
+- !private ["9FluentKit8DatabaseP", "query"]
+- ["9FluentKit8DatabaseP", "send"]
+- !private ["9FluentKit8DatabaseP", "serialize"]
+- !private ["9FluentKit8DatabaseP", "sql"]
+- ["9FluentKit8DatabaseP", "transaction"]
+- ["9FluentKit8DatabaseP", "withConnection"]
+- !private ["9FluentKit14DatabaseOutputP", ""]
+- ["9FluentKit14DatabaseOutputP", "contains"]
+- !private ["9FluentKit14DatabaseOutputP", "customIDKey"]
+- ["9FluentKit14DatabaseOutputP", "decode"]
+- ["9FluentKit14DatabaseOutputP", "description"]
+- !private ["9FluentKit14DatabaseOutputP", "fatalError"]
+- !private ["9FluentKit14DatabaseOutputP", "init"]
+- !private ["9FluentKit14DatabaseOutputP", "metadata"]
+- ["9FluentKit14DatabaseOutputP", "schema"]
+- !private ["9FluentKit13DatabaseQueryV", "action"]
+- !private ["9FluentKit13DatabaseQueryV", "customIDKey"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- ["SQ", "FixedWidthInteger"]
+- ["SQ", "UInt64"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "flatMapError"]
+- !private ["SQ", "flatMapThrowing"]
+- !private ["SQ", "id"]
+- ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "numericCast"]
+- !private ["SQ", "subscript"]
+- !private ["3NIO9EventLoopP", "makeFailedFuture"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "flatMapError"]
+- !private ["3NIO15EventLoopFutureC", "flatMapThrowing"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", "makeFailedFuture"]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "id"]
+- ["s27ExpressibleByIntegerLiteralP", "FixedWidthInteger"]
+- ["s27ExpressibleByIntegerLiteralP", "UInt64"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "numericCast"]
+- !private ["s26ExpressibleByStringLiteralP", "id"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "id"]
+- !private ["9FluentKit8FieldKeyO", "id"]
+- ["s17FixedWidthIntegerP", "FixedWidthInteger"]
+- ["s17FixedWidthIntegerP", "UInt64"]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "numericCast"]
+- ["SH", "FixedWidthInteger"]
+- ["SH", "UInt64"]
+- !private ["SH", "id"]
+- ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "numericCast"]
+- !private ["SH", "subscript"]
+- ["Si", "deinit"]
+- ["Si", "init"]
+- ["s5Int64V", "deinit"]
+- ["s5Int64V", "init"]
+- ["17FluentMySQLDriver25LastInsertIDInitializableP", "FixedWidthInteger"]
+- ["17FluentMySQLDriver25LastInsertIDInitializableP", "UInt64"]
+- ["17FluentMySQLDriver25LastInsertIDInitializableP", ""]
+- ["17FluentMySQLDriver25LastInsertIDInitializableP", "init"]
+- !private ["17FluentMySQLDriver25LastInsertIDInitializableP", "numericCast"]
+- ["s25LosslessStringConvertibleP", "FixedWidthInteger"]
+- ["s25LosslessStringConvertibleP", "UInt64"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "numericCast"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "map"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["8MySQLNIO0A13SQLConnectionC", "simpleQuery"]
+- !private ["17FluentMySQLDriver0B20SQLConverterDelegateV", "deinit"]
+- !private ["17FluentMySQLDriver0B20SQLConverterDelegateV", "init"]
+- ["8MySQLNIO0A18SQLDataConvertibleP", "init"]
+- !private ["8MySQLKit0A14SQLDataEncoderV", "encode"]
+- !private ["8MySQLKit0A14SQLDataEncoderV", "init"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "LastInsertRow"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "MySQLConverterDelegate"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "MySQLDataEncoder"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "MySQLDialect"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "SQLQueryConverter"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "SQLSchemaConverter"]
+- ["8MySQLNIO0A11SQLDatabaseP", ""]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "_FluentMySQLDatabase"]
+- ["8MySQLNIO0A11SQLDatabaseP", "context"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "database"]
+- ["8MySQLNIO0A11SQLDatabaseP", "dialect"]
+- ["8MySQLNIO0A11SQLDatabaseP", "eventLoop"]
+- ["8MySQLNIO0A11SQLDatabaseP", "execute"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "fatalError"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "init"]
+- ["8MySQLNIO0A11SQLDatabaseP", "logger"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "query"]
+- ["8MySQLNIO0A11SQLDatabaseP", "send"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "serialize"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "simpleQuery"]
+- !private ["8MySQLNIO0A11SQLDatabaseP", "sql"]
+- ["8MySQLNIO0A11SQLDatabaseP", "transaction"]
+- ["8MySQLNIO0A11SQLDatabaseP", "withConnection"]
+- !private ["8MySQLKit0A10SQLDialectV", "init"]
+- !private ["8MySQLNIO0A16SQLQueryMetadataV", "lastInsertID"]
+- !private ["8MySQLNIO0A6SQLRowV", "databaseOutput"]
+- ["21NIOConcurrencyHelpers18NIOAtomicPrimitiveP", "init"]
+- ["Sj", "FixedWidthInteger"]
+- ["Sj", "UInt64"]
+- ["Sj", "init"]
+- !private ["Sj", "numericCast"]
+- !private ["Sk", "map"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "map"]
+- !private ["Sm", "subscript"]
+- ["s10SIMDScalarP", "init"]
+- !private ["9FluentSQL20SQLConverterDelegateP", "init"]
+- !private ["6SQLKit11SQLDatabaseP", "LastInsertRow"]
+- !private ["6SQLKit11SQLDatabaseP", "MySQLConverterDelegate"]
+- !private ["6SQLKit11SQLDatabaseP", "MySQLDataEncoder"]
+- !private ["6SQLKit11SQLDatabaseP", "MySQLDialect"]
+- !private ["6SQLKit11SQLDatabaseP", "SQLQueryConverter"]
+- !private ["6SQLKit11SQLDatabaseP", "SQLSchemaConverter"]
+- ["6SQLKit11SQLDatabaseP", ""]
+- !private ["6SQLKit11SQLDatabaseP", "_FluentMySQLDatabase"]
+- ["6SQLKit11SQLDatabaseP", "context"]
+- !private ["6SQLKit11SQLDatabaseP", "database"]
+- ["6SQLKit11SQLDatabaseP", "dialect"]
+- ["6SQLKit11SQLDatabaseP", "eventLoop"]
+- ["6SQLKit11SQLDatabaseP", "execute"]
+- !private ["6SQLKit11SQLDatabaseP", "fatalError"]
+- !private ["6SQLKit11SQLDatabaseP", "init"]
+- ["6SQLKit11SQLDatabaseP", "logger"]
+- !private ["6SQLKit11SQLDatabaseP", "query"]
+- ["6SQLKit11SQLDatabaseP", "send"]
+- !private ["6SQLKit11SQLDatabaseP", "serialize"]
+- !private ["6SQLKit11SQLDatabaseP", "sql"]
+- ["6SQLKit11SQLDatabaseP", "transaction"]
+- ["6SQLKit11SQLDatabaseP", "withConnection"]
+- !private ["6SQLKit10SQLDialectP", "init"]
+- !private ["9FluentSQL17SQLQueryConverterV", "convert"]
+- !private ["9FluentSQL17SQLQueryConverterV", "init"]
+- !private ["6SQLKit6SQLRowP", "databaseOutput"]
+- !private ["9FluentSQL18SQLSchemaConverterV", "convert"]
+- !private ["9FluentSQL18SQLSchemaConverterV", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "init"]
+- ["Sx", "FixedWidthInteger"]
+- ["Sx", "UInt64"]
+- ["Sx", "init"]
+- !private ["Sx", "numericCast"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["Su", "deinit"]
+- ["Su", "init"]
+- ["s6UInt64V", "deinit"]
+- ["s6UInt64V", "init"]
+- ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "Database"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "DatabaseContext"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "DatabaseEnum"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "DatabaseOutput"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "DatabaseQuery"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "DatabaseSchema"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "EventLoopFuture"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "LastInsertRow"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "Logger"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "MySQLCommand"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "MySQLConnection"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "MySQLConverterDelegate"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "MySQLDataEncoder"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "MySQLDatabase"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "MySQLDialect"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "SQLDialect"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "SQLExpression"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "SQLQueryConverter"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "SQLRow"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "SQLSchemaConverter"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "Void"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "_FluentMySQLDatabase"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "context"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "database"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "deinit"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "dialect"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "eventLoop"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "execute"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "fatalError"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "init"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "logger"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "query"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "send"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "serialize"]
+- !private ["17FluentMySQLDriver01_aB11SQLDatabaseV", "sql"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "transaction"]
+- ["17FluentMySQLDriver01_aB11SQLDatabaseV", "withConnection"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "9FluentKit13DatabaseQueryV6ActionO"
+- "s18AdditiveArithmeticP"
+- !private "Sa"
+- "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "SK"
+- "Sz"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "8AsyncKit18ConnectionPoolItemP"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "9FluentKit8DatabaseP"
+- "9FluentKit14DatabaseOutputP"
+- !private "9FluentKit13DatabaseQueryV"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9FluentKit8FieldKeyO"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "Si"
+- "s5Int64V"
+- "17FluentMySQLDriver25LastInsertIDInitializableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "8MySQLNIO0A13SQLConnectionC"
+- !private "17FluentMySQLDriver0B20SQLConverterDelegateV"
+- "8MySQLNIO0A18SQLDataConvertibleP"
+- !private "8MySQLKit0A14SQLDataEncoderV"
+- "8MySQLNIO0A11SQLDatabaseP"
+- !private "8MySQLKit0A10SQLDialectV"
+- !private "8MySQLNIO0A16SQLQueryMetadataV"
+- !private "8MySQLNIO0A6SQLRowV"
+- "21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+- "Sj"
+- !private "Sk"
+- !private "Sm"
+- "s10SIMDScalarP"
+- !private "9FluentSQL20SQLConverterDelegateP"
+- "6SQLKit11SQLDatabaseP"
+- !private "6SQLKit10SQLDialectP"
+- !private "9FluentSQL17SQLQueryConverterV"
+- !private "6SQLKit6SQLRowP"
+- !private "9FluentSQL18SQLSchemaConverterV"
+- !private "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "Su"
+- "s6UInt64V"
+- "SU"
+- !private "s14_ArrayProtocolP"
+- "s15_CVarArgAlignedP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "17FluentMySQLDriver01_aB11SQLDatabaseV"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentSQL.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLNIO.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKit.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLKit.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentKit.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/App.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8b6b22a1e2370f323a9e55ffd69d5369"
