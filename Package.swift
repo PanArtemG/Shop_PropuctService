@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "template",
+    name: "ProductService",
     platforms: [
        .macOS(.v10_15)
     ],

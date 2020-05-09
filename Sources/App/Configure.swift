@@ -7,8 +7,6 @@ import JWT
 public func configure(_ app: Application) throws {
     // uncomment to serve files from /Public folder
     // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
-
-    app.middleware.use(CORSMiddleware())
     
     guard let jwksString = Environment.process.JWKS else { fatalError("No value was found at the given public key environment 'JWKS'")
     }
@@ -19,11 +17,16 @@ public func configure(_ app: Application) throws {
     }
     app.databases.use(try .mysql(url: url), as: .mysql)
     
+    app.middleware.use(CORSMiddleware())
+    app.middleware.use(ErrorMiddleware() { request, error in
+        // TODO: Make this much nicer.
+        return Response(status: .internalServerError)
+    })
+    
     try app.jwt.signers.use(jwksJSON: jwksString)
     
-    
-
-    app.migrations.add(CreateTodo())
+    app.migrations.add(CreateCategory())
+    app.migrations.add(CreateProduct())
 
     // register routes
     try routes(app)
