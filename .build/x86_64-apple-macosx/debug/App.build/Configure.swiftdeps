@@ -7,10 +7,13 @@ provides-dynamic-lookup:
 depends-top-level:
 - "Application"
 - !private "CORSMiddleware"
-- !private "CreateTodo"
+- !private "CreateCategory"
+- !private "CreateProduct"
 - !private "Environment"
+- !private "ErrorMiddleware"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
+- !private "Response"
 - !private "StringLiteralType"
 - !private "URL"
 - "configure"
@@ -22,8 +25,10 @@ depends-member:
 - !private ["5Vapor11ApplicationC", "middleware"]
 - !private ["5Vapor11ApplicationC", "migrations"]
 - !private ["5Vapor14CORSMiddlewareC", "init"]
-- !private ["3App10CreateTodoV", "deinit"]
-- !private ["3App10CreateTodoV", "init"]
+- !private ["3App14CreateCategoryV", "deinit"]
+- !private ["3App14CreateCategoryV", "init"]
+- !private ["3App13CreateProductV", "deinit"]
+- !private ["3App13CreateProductV", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
@@ -33,15 +38,20 @@ depends-member:
 - !private ["9FluentKit10DatabaseIDV", "mysql"]
 - !private ["9FluentKit9DatabasesC", "use"]
 - !private ["Se", "init"]
+- !private ["Se", "internalServerError"]
 - !private ["Se", "mysql"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SE", "init"]
+- !private ["SE", "internalServerError"]
 - !private ["SE", "mysql"]
 - !private ["5Vapor11EnvironmentV", "process"]
 - !private ["SQ", "init"]
+- !private ["SQ", "internalServerError"]
 - !private ["SQ", "mysql"]
 - !private ["SQ", "process"]
+- !private ["5Vapor15ErrorMiddlewareC", "init"]
+- !private ["8NIOHTTP118HTTPResponseStatusO", "internalServerError"]
 - !private ["SH", "init"]
 - !private ["SH", "mysql"]
 - !private ["5Vapor11ApplicationC3JWTEADV", "signers"]
@@ -54,6 +64,9 @@ depends-member:
 - !private ["5Vapor11EnvironmentV7ProcessV", "MYSQL_CRED"]
 - !private ["5Vapor11EnvironmentV7ProcessV", "subscript"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["5Vapor8ResponseC", "init"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "internalServerError"]
 - !private ["5Vapor13RoutesBuilderP", "databases"]
 - !private ["5Vapor13RoutesBuilderP", "jwt"]
 - !private ["5Vapor13RoutesBuilderP", "middleware"]
@@ -70,7 +83,8 @@ depends-member:
 depends-nominal:
 - !private "5Vapor11ApplicationC"
 - !private "5Vapor14CORSMiddlewareC"
-- !private "3App10CreateTodoV"
+- !private "3App14CreateCategoryV"
+- !private "3App13CreateProductV"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s23CustomStringConvertibleP"
 - !private "9FluentKit21DatabaseConfigurationP"
@@ -82,6 +96,8 @@ depends-nominal:
 - !private "SE"
 - !private "5Vapor11EnvironmentV"
 - !private "SQ"
+- !private "5Vapor15ErrorMiddlewareC"
+- !private "8NIOHTTP118HTTPResponseStatusO"
 - !private "SH"
 - !private "5Vapor11ApplicationC3JWTEADV"
 - !private "6JWTKit10JWTSignersC"
@@ -91,6 +107,8 @@ depends-nominal:
 - !private "9FluentKit10MigrationsC"
 - !private "5Vapor11EnvironmentV7ProcessV"
 - !private "10Foundation20ReferenceConvertibleP"
+- !private "5Vapor8ResponseC"
+- !private "5Vapor17ResponseEncodableP"
 - !private "5Vapor13RoutesBuilderP"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
@@ -111,6 +129,7 @@ depends-external:
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWT.swiftmodule"
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Backtrace.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.swiftmodule"
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.swiftmodule"
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"

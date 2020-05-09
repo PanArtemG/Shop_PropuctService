@@ -6,37 +6,51 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "Application"
-- !private "String"
+- !private "CategoriesController"
+- !private "ProductsController"
+- !private "SimpleJWTMiddleware"
 - !private "StringLiteralType"
-- !private "TodoController"
 - "routes"
 depends-member:
-- !private ["5Vapor11ApplicationC", "delete"]
-- !private ["5Vapor11ApplicationC", "get"]
-- !private ["5Vapor11ApplicationC", "post"]
+- !private ["5Vapor11ApplicationC", "grouped"]
+- !private ["3App20CategoriesControllerC", "delete"]
+- !private ["3App20CategoriesControllerC", "edit"]
+- !private ["3App20CategoriesControllerC", "get"]
+- !private ["3App20CategoriesControllerC", "init"]
+- !private ["3App20CategoriesControllerC", "new"]
+- !private ["3App16CategoryResponseV", "deinit"]
 - !private ["s23CustomStringConvertibleP", "anything"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "anything"]
 - !private ["s26ExpressibleByStringLiteralP", "anything"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "anything"]
+- !private ["5Vapor10MiddlewareP", "init"]
 - !private ["10RoutingKit13PathComponentO", "anything"]
+- !private ["3App15ProductResponseV", "deinit"]
+- !private ["3App18ProductsControllerC", "delete"]
+- !private ["3App18ProductsControllerC", "edit"]
+- !private ["3App18ProductsControllerC", "get"]
+- !private ["3App18ProductsControllerC", "init"]
+- !private ["3App18ProductsControllerC", "new"]
 - !private ["5Vapor13RoutesBuilderP", "delete"]
 - !private ["5Vapor13RoutesBuilderP", "get"]
+- !private ["5Vapor13RoutesBuilderP", "grouped"]
+- !private ["5Vapor13RoutesBuilderP", "patch"]
 - !private ["5Vapor13RoutesBuilderP", "post"]
-- !private ["3App4TodoC", "deinit"]
-- !private ["3App14TodoControllerV", "create"]
-- !private ["3App14TodoControllerV", "delete"]
-- !private ["3App14TodoControllerV", "index"]
-- !private ["3App14TodoControllerV", "init"]
+- !private ["19SimpleJWTMiddlewareAAC", "init"]
 depends-nominal:
 - !private "5Vapor11ApplicationC"
+- !private "3App20CategoriesControllerC"
+- !private "3App16CategoryResponseV"
 - !private "s23CustomStringConvertibleP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "5Vapor10MiddlewareP"
 - !private "10RoutingKit13PathComponentO"
+- !private "3App15ProductResponseV"
+- !private "3App18ProductsControllerC"
 - !private "5Vapor13RoutesBuilderP"
-- !private "3App4TodoC"
-- !private "3App14TodoControllerV"
+- !private "19SimpleJWTMiddlewareAAC"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
@@ -49,6 +63,7 @@ depends-external:
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/JWT.swiftmodule"
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Backtrace.swiftmodule"
+- "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/SimpleJWTMiddleware.swiftmodule"
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.swiftmodule"
 - "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
@@ -232,4 +247,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "0e6653a7ca32a8b46eba7244d46477cd"
+interface-hash: "ed2c86dd8bd086fde6f04886a8c0c704"

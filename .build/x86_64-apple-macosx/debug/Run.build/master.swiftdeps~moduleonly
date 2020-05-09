@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
 options: "d58bb22d2986588a47a6e20e4cde6e54"
-build_time: [1588863946, 532155000]
+build_time: [1589017195, 98280000]
 inputs:
-  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/Run/main.swift": [1588684655, 423725724]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/Sources/Run/main.swift": [1588684655, 440530896]

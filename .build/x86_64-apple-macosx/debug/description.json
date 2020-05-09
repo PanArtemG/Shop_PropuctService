@@ -1,18 +1,18 @@
 {
   "allExecutables" : [
-    "NIOTLSServer",
-    "HTTPServerWithQuiescingDemo",
     "NIOHTTP2PerformanceTester",
-    "NIOSSLHTTP1Client",
-    "NIOWritePCAPDemo",
     "NIOHTTP2Server",
-    "Run"
+    "HTTPServerWithQuiescingDemo",
+    "Run",
+    "NIOSSLHTTP1Client",
+    "NIOTLSServer",
+    "NIOWritePCAPDemo"
   ],
   "builtTestProducts" : [
     {
-      "packageName" : "template",
-      "productName" : "templatePackageTests",
-      "testBinary" : "\/Users\/panartem\/Developer\/Vapor4-Shop\/Shop Backend\/ProductService\/.build\/x86_64-apple-macosx\/debug\/templatePackageTests.xctest\/Contents\/MacOS\/templatePackageTests"
+      "packageName" : "ProductService",
+      "productName" : "ProductServicePackageTests",
+      "testBinary" : "\/Users\/panartem\/Developer\/Vapor4-Shop\/Shop Backend\/ProductService\/.build\/x86_64-apple-macosx\/debug\/ProductServicePackageTests.xctest\/Contents\/MacOS\/ProductServicePackageTests"
     }
   ],
   "copyCommands" : {

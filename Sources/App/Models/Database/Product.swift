@@ -17,6 +17,9 @@ final class Product: Model {
     @Field(key: "price")
     var price: Int
     
+//    @Field(key: "tax")
+//    var tax: Decimal
+    
     @Field(key: "categoryId")
     var categoryId: Int
     

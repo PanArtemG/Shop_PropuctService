@@ -16,6 +16,7 @@ provides-dynamic-lookup:
 - "respond"
 depends-top-level:
 - !private "!="
+- !private "=="
 - !private "Abort"
 - "AnyHashable"
 - !private "Array"
@@ -106,6 +107,7 @@ depends-member:
 - !private ["SH", "utf8"]
 - !private ["5Vapor7RequestC3JWTEADV", "verify"]
 - ["6JWTKit8JWTErrorO", "claimVerificationFailure"]
+- !private ["6JWTKit10JWTPayloadP", "init"]
 - ["10Foundation14LocalizedErrorP", "claimVerificationFailure"]
 - !private ["7Logging6LoggerV", "error"]
 - !private ["s25LosslessStringConvertibleP", "utf8"]
@@ -129,6 +131,7 @@ depends-member:
 - !private ["So14NSSecureCodingP", "utf8"]
 - !private ["So8NSStringC", "utf8"]
 - !private ["19SimpleJWTMiddleware7PayloadV", "deinit"]
+- !private ["19SimpleJWTMiddleware7PayloadV", "init"]
 - !private ["19SimpleJWTMiddleware10PayloadKeyV", "deinit"]
 - !private ["Sk", "bearerAuthorization"]
 - !private ["Sk", "init"]
@@ -230,6 +233,7 @@ depends-nominal:
 - !private "SH"
 - !private "5Vapor7RequestC3JWTEADV"
 - "6JWTKit8JWTErrorO"
+- !private "6JWTKit10JWTPayloadP"
 - "10Foundation14LocalizedErrorP"
 - !private "7Logging6LoggerV"
 - !private "s25LosslessStringConvertibleP"

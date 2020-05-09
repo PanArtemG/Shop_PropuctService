@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
 options: "76b5c0143105167c4313ef3e8f28e06f"
-build_time: [1588863945, 324562000]
+build_time: [1589017193, 175976000]
 inputs:
-  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/SimpleJWTMiddleware/Sources/SimpleJWTMiddleware/Payload.swift": [1588863839, 984597765]
-  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/SimpleJWTMiddleware/Sources/SimpleJWTMiddleware/SimpleJWTMiddleware.swift": [1588863840, 13224539]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/SimpleJWTMiddleware/Sources/SimpleJWTMiddleware/Payload.swift": [1589017191, 399548493]
+  "/Users/panartem/Developer/Vapor4-Shop/Shop Backend/ProductService/.build/checkouts/SimpleJWTMiddleware/Sources/SimpleJWTMiddleware/SimpleJWTMiddleware.swift": [1589017191, 399732835]

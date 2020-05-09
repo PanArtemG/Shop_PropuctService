@@ -25,7 +25,6 @@ aa22b334730cf0ef478fe32526e642f5352dc06b refs/heads/test-labels
 9ed62e18e57138a2b24a8a056d04db9103a46bab refs/heads/tn-beta-5
 b97e21f6a020e0bc945baa727646fd4f38256dc8 refs/heads/tn-dupe-unique
 e3cc0011ef3c854a4f108e38d0e8493ce38077f6 refs/heads/tn-enum
-2a0bef9b0ecbdbfb6ad380d68fd30d62ebe494c1 refs/heads/tn-in-transaction
 5e3184ec3c8f820323bba335b648801abebb16cb refs/heads/tn-nested-eagerload
 24e7b350d767069f95734e1dca9400b17e6864a1 refs/heads/tn-optional-filter
 bc12db0aabd2ac21e75f89d4c2901932e7ab50e7 refs/heads/tn-schema
@@ -34,7 +33,6 @@ af81bea938ecc7c071666ab14a0cc1f92c9896ce refs/heads/tn-schema-cleanup
 ff6e06165d3cfe0192031e97be32bc7f01bd5029 refs/heads/tn-type-erase-1
 dd58fa1fce9ca70e73b5a8307a64f19c6f643610 refs/heads/tn-type-erase-2
 4b1b555d77216de41f695e8293d9b6992e152de8 refs/heads/tn-typealias
-a0f47af6cb18dc54e09121d00b22c896d4b30c84 refs/heads/tn-uniform-path
 1a14b8da5665d943b837e5e5c671d24130a047a0 refs/heads/two-stage-migrations
 39cafa402d198c5966e2b773edd9aa78db079230 refs/pull/1/head
 eb508d43b6a2a37d0a496ee798206f9e1df8ec85 refs/pull/10/head
@@ -100,7 +98,6 @@ bd7ac772874acf6d7684b001349c2f095b76c4f3 refs/pull/185/head
 73e7fcbc0d49d4e17c5d87e82fe815dd00664ae0 refs/pull/190/head
 1421985ad0931911911b35d8a6d5d9a2e3ed0ec7 refs/pull/191/head
 2a0bef9b0ecbdbfb6ad380d68fd30d62ebe494c1 refs/pull/192/head
-13fcfbd185b865c05e12f419c50e63ff2e5f52d8 refs/pull/192/merge
 2ffd966daf2919bbb8817230da9735d5a5fee3d0 refs/pull/193/head
 cba75f0f3a6e18fd90317b47c6905714e822643f refs/pull/195/head
 b8371469b54706cfed60e5e33a41238255604fc6 refs/pull/197/head
@@ -158,7 +155,6 @@ d8893e1eddf02616db150ad2de69d947546efa0d refs/pull/265/head
 fa2a9662c56557400216358345bbc523b688ce9f refs/pull/265/merge
 c76a906c459e6b6b1dc1a2a1aa15dcf128710574 refs/pull/267/head
 a0f47af6cb18dc54e09121d00b22c896d4b30c84 refs/pull/268/head
-24f888d5eb36de8f09730744fe1e22c71d35654e refs/pull/268/merge
 e36a0e9cb8cbca9c47a158a4e18b190582bfe278 refs/pull/27/head
 0b1c90295c2aef0bad538ee096c2fd353e6fefb2 refs/pull/28/head
 71dca5783d0f797366c84760da4a4dca2dec1b28 refs/pull/29/head
